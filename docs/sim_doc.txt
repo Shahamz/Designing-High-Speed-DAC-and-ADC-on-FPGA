@@ -1,0 +1,35 @@
+Simulation:
+**************
+The simulation enviorment is designed using Vivado Integrator, with the purpose of simulating the jesd204b protocol on an FPGA platform.
+The hardware design is that of loopback chain, starting from the Tx channel (generated in data_gen_hier_0) and ending in the Rx channel (validated in data_check_hier_0).
+We provide here the documentaion for the block design and testbench verilog code of the simulation.
+Note: In this simulation we used jesd204c since at that point we were trying to use the zcu104 board, however we later found out it is not possible to use that board for the jesd protocol. That meant when trying to physically implement it on the board, we had to use a different one, (namley, the zc706) which only supports jesd204b. The working princibles remain exactly the same.
+
+
+SimpleSim_tb.v:
+---------------
+This is the top level wrapper, essentialy simulating the 'outside world' communicating with FPGA. In the context of this project, the testbench drives
+configuration to the different IPs in the design and asserts stages of the bring up of the protocol (reset, sync, etc.).
+The testbench also is used the connect the output of the Tx channel (i.e. the differential signal txp_out and txn_out) with the input of the Rx channel
+(i.e. rxp_in and rxn_in).
+Finally, it asserts the pass signal is raised by the data_check_hier_0, indicating valid transmission.
+
+data_gen_hier_0:
+----------------
+This hierarchy is responsible for generating a sinusoid wave and mapping it to be transport via the transport layer.
+It is comprised of two RTL block written in verilog. 
+jesd204c_0_sig_gen creates a two-channel digital sine wave out of a look up hard coded table and provides two control signals, and jesd204c_0_tl_map maps using the control signal, creating a single data stream.
+
+jesd204c_block:
+---------------
+Here we integerated the protocol's IPs to implement it in hardware design. In this simulation we simulate the use of one lane only.
+jesd204c_rx is responsible for the Rx channel's data link and transport layer. 
+jesd204c_tx is responsible for the Tx channel's data link and transport layer. 
+jesd204c_0_phy is used as a trancivier, integerating both the Rx and Tx phy layer in a single unit. 
+For the Rx channel, it recieves as input a differential, serial signal (rxp_in,rxn_in) and translate it to a parallel signal for the data link layer to pick up.
+For the Tx channel, it recieves the signal from the data link layer and outputs the differential (txp_out,txn_out).
+
+data_check_hier_0:
+------------------
+Reverses the function of data_gen_hier_0. It first un maps the signal using the embedded control signals with jesd204c_0_tl_demap.
+Then, jesd204c_0_sig_chk asserts the incomming signal to be as expected by comparing it to the same lookup table. If the signal is validated and no error has occured, iut asserts the 'pass' signal. Additionally, the 'err' signal indicates an error has occured.
