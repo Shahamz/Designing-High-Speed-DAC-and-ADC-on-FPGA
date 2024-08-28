@@ -30,4 +30,3 @@ Holds scripts for the gui. IMPORTANT: Several libraries should already be instal
 A bash script is added (run_prog.sh) to run the gui with a different conda enviorement which may be necessery. To use it. Modify, run_prog.sh to the right interpreter and execute from terminal "./run_prog.sh guiFromAmir.py"
 Otherwise, run the gui directly from the console using: "python3 ./guiFromAmir.py". 
 You may need to give it executing permissions with "chmod +x".
-
