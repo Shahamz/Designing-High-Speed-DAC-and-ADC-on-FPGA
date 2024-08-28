@@ -23,3 +23,11 @@ A script to generate the Vivado project of the simulation. To generate, open Viv
 FinalProject.tcl:
 -----------------
 A script to generate the Vivado project of the final hardware design. Create the same way as the simulation.
+
+gui:
+----
+Holds scripts for the gui. IMPORTANT: Several libraries should already be installed before running including (and not limited to): tkinter, matplotlib, PIL, serial, subprocess and threading. 
+A bash script is added (run_prog.sh) to run the gui with a different conda enviorement which may be necessery. To use it. Modify, run_prog.sh to the right interpreter and execute from terminal "./run_prog.sh guiFromAmir.py"
+Otherwise, run the gui directly from the console using: "python3 ./guiFromAmir.py". 
+You may need to give it executing permissions with "chmod +x".
+
