@@ -1,0 +1,1592 @@
+TRACE::2024-06-05.11:43:27::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:27::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:27::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:27::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:27::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:27::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:27::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-06-05.11:43:28::SCWPlatform::Opened new HwDB with name system_top_0
+TRACE::2024-06-05.11:43:28::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-06-05.11:43:28::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0"
+		}]
+}
+TRACE::2024-06-05.11:43:28::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-06-05.11:43:28::SCWDomain::checking for install qemu data   : 
+TRACE::2024-06-05.11:43:28::SCWDomain:: Using the QEMU Data from install at  : /home/shahamz/tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-06-05.11:43:28::SCWDomain:: Using the QEMU args  from install at  : /home/shahamz/tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:28::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2024-06-05.11:43:28::SCWPlatform::Generating the sources  .
+TRACE::2024-06-05.11:43:28::SCWBDomain::Generating boot domain sources.
+TRACE::2024-06-05.11:43:28::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:28::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:28::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-06-05.11:43:28::SCWMssOS::No sw design opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::mss does not exists at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::Creating sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::Adding the swdes entry, created swdb /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::updating the scw layer changes to swdes at   /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::Writing mss at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:28::SCWMssOS::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-06-05.11:43:28::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-05.11:43:28::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-05.11:43:28::SCWBDomain::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-06-05.11:43:32::SCWPlatform::Generating sources Done.
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-06-05.11:43:32::SCWMssOS::No sw design opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::mss exists loading the mss file  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Opened the sw design from mss  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Adding the swdes entry /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-06-05.11:43:32::SCWMssOS::updating the scw layer about changes
+TRACE::2024-06-05.11:43:32::SCWMssOS::Opened the sw design.  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:32::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:32::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:32::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:32::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:32::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9749b0545ddc343fe2d186efe3cf7ae5",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWDomain::checking for install qemu data   : 
+TRACE::2024-06-05.11:43:32::SCWDomain:: Using the QEMU Data from install at  : /home/shahamz/tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-06-05.11:43:32::SCWDomain:: Using the QEMU args  from install at  : /home/shahamz/tools/Xilinx/Vitis/2022.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:32::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:32::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:32::SCWMssOS::No sw design opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::mss does not exists at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Creating sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Adding the swdes entry, created swdb /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::updating the scw layer changes to swdes at   /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Writing mss at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:32::SCWMssOS::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-06-05.11:43:32::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-05.11:43:32::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-06-05.11:43:32::SCWMssOS::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-06-05.11:43:32::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Adding the swdes entry, mss present, able to open swdb /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-06-05.11:43:33::SCWMssOS::Writing the mss file completed /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9749b0545ddc343fe2d186efe3cf7ae5",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"80326f495a2ab48aad3e6bb76f4acd52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-06-05.11:43:33::SCWPlatform::Started generating the artifacts platform hw0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-05.11:43:33::SCWPlatform::Started generating the artifacts for system configuration hw0
+LOG::2024-06-05.11:43:33::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-06-05.11:43:33::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-06-05.11:43:33::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-06-05.11:43:33::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-06-05.11:43:33::SCWSystem::Checking the domain standalone_domain
+LOG::2024-06-05.11:43:33::SCWSystem::Not a boot domain 
+LOG::2024-06-05.11:43:33::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-06-05.11:43:33::SCWDomain::Generating domain artifcats
+TRACE::2024-06-05.11:43:33::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-05.11:43:33::SCWMssOS::Copying the qemu file from  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/export/hw0/sw/hw0/qemu/
+TRACE::2024-06-05.11:43:33::SCWMssOS::Copying the qemu file from  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/export/hw0/sw/hw0/standalone_domain/qemu/
+TRACE::2024-06-05.11:43:33::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-06-05.11:43:33::SCWMssOS::Mss edits present, copying mssfile into export location /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-05.11:43:33::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-05.11:43:33::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-06-05.11:43:33::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-06-05.11:43:33::SCWMssOS::Copying to export directory.
+TRACE::2024-06-05.11:43:33::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-05.11:43:33::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-06-05.11:43:33::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-06-05.11:43:33::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-06-05.11:43:33::SCWSystem::Completed Processing the sysconfig hw0
+LOG::2024-06-05.11:43:33::SCWPlatform::Completed generating the artifacts for system configuration hw0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-05.11:43:33::SCWSystem::Writing the bif file for system config hw0
+TRACE::2024-06-05.11:43:33::SCWSystem::dir created 
+TRACE::2024-06-05.11:43:33::SCWSystem::Writing the bif 
+TRACE::2024-06-05.11:43:33::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-05.11:43:33::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-05.11:43:33::SCWPlatform::Completed generating the platform
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9749b0545ddc343fe2d186efe3cf7ae5",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"80326f495a2ab48aad3e6bb76f4acd52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-05.11:43:33::SCWPlatform::updated the xpfm file.
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9749b0545ddc343fe2d186efe3cf7ae5",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"80326f495a2ab48aad3e6bb76f4acd52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:33::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9749b0545ddc343fe2d186efe3cf7ae5",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"80326f495a2ab48aad3e6bb76f4acd52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-06-05.11:43:33::SCWPlatform::Started generating the artifacts platform hw0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-06-05.11:43:33::SCWPlatform::Started generating the artifacts for system configuration hw0
+LOG::2024-06-05.11:43:33::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-06-05.11:43:33::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-06-05.11:43:33::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-06-05.11:43:33::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:33::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:33::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:33::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:33::SCWBDomain::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-06-05.11:43:33::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-05.11:43:33::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-06-05.11:43:33::SCWBDomain::System Command Ran  cd  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl ; bash -c " make -C zynq_fsbl_bsp ; make  " 
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_10/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_9/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_16/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_10/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_17/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Finished building libraries sequentially.
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_10/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_9/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_16/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_10/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_6/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_17/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_10/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_9/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_16/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_10/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_17/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_0/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_8/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2024-06-05.11:43:33::SCWBDomain::Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_8/src
+
+TRACE::2024-06-05.11:43:34::SCWBDomain::Finished building libraries parallelly.
+
+TRACE::2024-06-05.11:43:34::SCWBDomain::Finished building libraries
+
+LOG::2024-06-05.11:43:35::SCWSystem::Checking the domain standalone_domain
+LOG::2024-06-05.11:43:35::SCWSystem::Not a boot domain 
+LOG::2024-06-05.11:43:35::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-06-05.11:43:35::SCWDomain::Generating domain artifcats
+TRACE::2024-06-05.11:43:35::SCWMssOS::Generating standalone artifcats
+TRACE::2024-06-05.11:43:35::SCWMssOS::Copying the qemu file from  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/export/hw0/sw/hw0/qemu/
+TRACE::2024-06-05.11:43:35::SCWMssOS::Copying the qemu file from  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/resources/hw0/standalone_domain/qemu_args.txt To /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/export/hw0/sw/hw0/standalone_domain/qemu/
+TRACE::2024-06-05.11:43:35::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-06-05.11:43:35::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:35::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:35::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:35::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:35::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:35::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:35::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:35::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:35::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:35::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:35::SCWMssOS::Completed writing the mss file at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-06-05.11:43:35::SCWMssOS::Mss edits present, copying mssfile into export location /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:35::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-06-05.11:43:35::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-06-05.11:43:35::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-06-05.11:43:35::SCWMssOS::doing bsp build ... 
+TRACE::2024-06-05.11:43:35::SCWMssOS::System Command Ran  cd  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp ; bash -c "make  " 
+TRACE::2024-06-05.11:43:35::SCWMssOS::Finished building libraries sequentially.
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_10/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iic_v3_9/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_16/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_10/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scugic_v5_0/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/sdps_v4_0/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_17/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/standalone_v8_0/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make include in ps7_cortexa9_0/libsrc/spips_v3_8/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_10/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/iic_v3_9/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_16/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_10/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_7/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_4/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scugic_v5_0/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_4/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/sdps_v4_0/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_17/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_7/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/standalone_v8_0/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_2/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_6/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_8/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_11/src
+
+TRACE::2024-06-05.11:43:35::SCWMssOS::Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_8/src
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Finished building libraries parallelly.
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Finished building libraries
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Copying to export directory.
+TRACE::2024-06-05.11:43:36::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-06-05.11:43:36::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-06-05.11:43:36::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-06-05.11:43:36::SCWSystem::Completed Processing the sysconfig hw0
+LOG::2024-06-05.11:43:36::SCWPlatform::Completed generating the artifacts for system configuration hw0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Started preparing the platform 
+TRACE::2024-06-05.11:43:36::SCWSystem::Writing the bif file for system config hw0
+TRACE::2024-06-05.11:43:36::SCWSystem::dir created 
+TRACE::2024-06-05.11:43:36::SCWSystem::Writing the bif 
+TRACE::2024-06-05.11:43:36::SCWPlatform::Started writing the spfm file 
+TRACE::2024-06-05.11:43:36::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-06-05.11:43:36::SCWPlatform::Completed generating the platform
+TRACE::2024-06-05.11:43:36::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:36::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:36::SCWMssOS::Saving the mss changes /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-06-05.11:43:36::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-06-05.11:43:36::SCWMssOS::Commit changes completed.
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWWriter::formatted JSON is {
+	"platformName":	"hw0",
+	"sprVersion":	"2.0",
+	"mode":	"cmd",
+	"dsaType":	"Fixed",
+	"platformDesc":	"hw0",
+	"platHandOff":	"/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.xsa",
+	"platIntHandOff":	"<platformDir>/hw/ZC706.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"hw0",
+	"systems":	[{
+			"systemName":	"hw0",
+			"systemDesc":	"hw0",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"hw0",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"9749b0545ddc343fe2d186efe3cf7ae5",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.8", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/hw0/standalone_domain/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/hw0/standalone_domain/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"80326f495a2ab48aad3e6bb76f4acd52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-06-05.11:43:36::SCWPlatform::updated the xpfm file.
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to open the hw design at /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA given /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA absoulate path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform::DSA directory /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Platform Path /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/hw/ZC706.xsa
+TRACE::2024-06-05.11:43:36::SCWPlatform:: Unique name xilinx:zc706::0.0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Trying to set the existing hwdb with name system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Opened existing hwdb system_top_0
+TRACE::2024-06-05.11:43:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-06-05.11:43:36::SCWMssOS::Checking the sw design at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-06-05.11:43:36::SCWMssOS::DEBUG:  swdes dump  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-06-05.11:43:36::SCWMssOS::Sw design exists and opened at  /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/ps7_cortexa9_0/standalone_domain/bsp/system.mss

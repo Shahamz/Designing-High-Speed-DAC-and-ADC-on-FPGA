@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+[bootloader] /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/output/hw0/export/hw0/sw/hw0/boot/fsbl.elf
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/tmp/ZC706.bit
+/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/fmcdaq2.elf
+}

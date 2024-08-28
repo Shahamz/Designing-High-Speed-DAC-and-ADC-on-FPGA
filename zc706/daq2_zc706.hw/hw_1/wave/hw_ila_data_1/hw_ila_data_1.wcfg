@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="1,025"></ZoomEndTime>
+      <Cursor1Time time="420"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="403"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_0_JESD204_TX_ILAS_CONFIG_addr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_0_JESD204_TX_ILAS_CONFIG_addr_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_0_JESD204_TX_ILAS_CONFIG_addr_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_0_JESD204_TX_ILAS_CONFIG_data_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_0_JESD204_TX_ILAS_CONFIG_data_1[127:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_0_JESD204_TX_ILAS_CONFIG_data_1[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_0_JESD204_TX_ILAS_CONFIG_rd_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_0_JESD204_TX_ILAS_CONFIG_rd_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_0_JESD204_TX_ILAS_CONFIG_rd_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_continuous_cgs_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_continuous_cgs_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_continuous_cgs_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_continuous_ilas_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_continuous_ilas_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_continuous_ilas_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_beats_per_multiframe_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_beats_per_multiframe_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_device_beats_per_multiframe_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_lmfc_offset_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_lmfc_offset_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_device_lmfc_offset_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_octets_per_frame_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_octets_per_frame_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_device_octets_per_frame_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_octets_per_multiframe_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_octets_per_multiframe_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_device_octets_per_multiframe_1[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_sysref_disable_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_sysref_disable_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_device_sysref_disable_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_sysref_oneshot_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_device_sysref_oneshot_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_device_sysref_oneshot_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_disable_char_replacement_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_disable_char_replacement_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_disable_char_replacement_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_disable_scrambler_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_disable_scrambler_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_disable_scrambler_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_lanes_disable_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_lanes_disable_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_lanes_disable_1[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_links_disable_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_links_disable_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_links_disable_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_mframes_per_ilas_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_mframes_per_ilas_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_mframes_per_ilas_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_octets_per_frame_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_octets_per_frame_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_octets_per_frame_1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_octets_per_multiframe_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_octets_per_multiframe_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_octets_per_multiframe_1[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_skip_ilas_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_1_JESD204_TX_CFG_skip_ilas_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_JESD204_TX_CFG_skip_ilas_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_2_JESD204_TX_CTRL_manual_sync_request_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_2_JESD204_TX_CTRL_manual_sync_request_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_JESD204_TX_CTRL_manual_sync_request_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_3_JESD204_TX_EVENT_sysref_alignment_error_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_3_JESD204_TX_EVENT_sysref_alignment_error_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_JESD204_TX_EVENT_sysref_alignment_error_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_3_JESD204_TX_EVENT_sysref_edge_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_3_JESD204_TX_EVENT_sysref_edge_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_JESD204_TX_EVENT_sysref_edge_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_state_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_state_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_JESD204_TX_STATUS_state_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_sync_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_sync_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_JESD204_TX_STATUS_sync_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_synth_params0_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_synth_params0_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_JESD204_TX_STATUS_synth_params0_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_synth_params1_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_synth_params1_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_JESD204_TX_STATUS_synth_params1_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_synth_params2_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_0/inst/SLOT_4_JESD204_TX_STATUS_synth_params2_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_JESD204_TX_STATUS_synth_params2_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

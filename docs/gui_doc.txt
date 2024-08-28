@@ -1,0 +1,38 @@
+GUI
+****
+
+Using the tkinter python liberary we created a gui to allow fast and easy loading and executing the program.
+
+program_fpga():
+---------------
+Creates the tcl script that loads the bitstream and elf onto the board.
+
+open_uart_connection():
+-----------------------
+Opens a uart connection between the processor and the host PC, for stdin, stdout, and stderr.
+
+send_data():
+------------
+Sends data via the uart connection. 
+
+read_uart():
+-------------
+Reads data coming from the uart connection.
+
+plot_adc_data():
+----------------
+Plots the results of the ADC to a graph displayed in seperate window.
+
+convert_result():
+-----------------
+Converts the ADC results to be plotted (from unsigned to signed).
+
+resize_image():
+----------------
+Function to resize images while maintaining the aspect ratio. Used for the logos.
+
+NOTES:
+******
+1. The physical set up should already be completed, meaning the board should correctly be connected to the ad-fmcdaq2-ebz, and the
+   ad-fmcdaq2-ebz connected to the wave generator and the scope.
+2. We used absoulute paths - to get it working on a different host, paths should be changed accordingly.

@@ -1,0 +1,17 @@
+The target system is: Generic -  - arm
+The host system is: Linux - 5.15.0-94-generic - x86_64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eac00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eac00.dir/build.make CMakeFiles/cmTC_eac00.dir/build
+make[1]: Entering directory '/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eac00.dir/CheckIncludeFiles.c.obj
+/home/shahamz/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc   -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/include -c   -o CMakeFiles/cmTC_eac00.dir/CheckIncludeFiles.c.obj   -c /home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_eac00
+/home/shahamz/tools/Xilinx/Vitis/2022.2/tps/lnx64/cmake-3.3.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eac00.dir/link.txt --verbose=1
+/home/shahamz/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc  -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -fno-tree-loop-distribute-patterns -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/include -c    CMakeFiles/cmTC_eac00.dir/CheckIncludeFiles.c.obj  -o cmTC_eac00  
+arm-xilinx-eabi-gcc.real: warning: CMakeFiles/cmTC_eac00.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/libsrc/libmetal_v2_4/build_libmetal/CMakeFiles/CMakeTmp'
+
+

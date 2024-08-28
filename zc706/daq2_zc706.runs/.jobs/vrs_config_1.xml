@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_sys_ps7_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_sys_ps7_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_iic_main_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_iic_main_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_sys_rstgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_sys_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_sys_200m_rstgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_sys_200m_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_hdmi_clkgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hdmi_clkgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_hdmi_core_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hdmi_core_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_hdmi_dma_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hdmi_dma_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_sys_audio_clkgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_sys_audio_clkgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_spdif_tx_core_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_spdif_tx_core_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_sysid_0_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_sysid_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rom_sys_0_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_rom_sys_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_xbar_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_hp0_interconnect_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hp0_interconnect_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9144_xcvr_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9144_xcvr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_tx_axi_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_tx_axi_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_tx_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_tx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_dac_tpl_core_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_dac_tpl_core_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9144_upack_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9144_upack_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9144_dma_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9144_dma_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_i_data_offload_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_i_data_offload_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_storage_unit_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_storage_unit_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9680_xcvr_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9680_xcvr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rx_axi_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_rx_axi_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rx_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_rx_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_adc_tpl_core_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_adc_tpl_core_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9680_cpack_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9680_cpack_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9680_dma_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9680_dma_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_i_data_offload_1_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_i_data_offload_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_storage_unit_1_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_storage_unit_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_util_daq2_xcvr_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_util_daq2_xcvr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9144_jesd_rstgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9144_jesd_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ad9680_jesd_rstgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ad9680_jesd_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="system_axi_ad9144_jesd_rstgen_0_synth_1"/>
+	</Run>
+	<Run Id="system_axi_hp3_interconnect_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hp3_interconnect_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_hp1_interconnect_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hp1_interconnect_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_hp2_interconnect_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_hp2_interconnect_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_rstgen_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_axi_ddr_cntrl_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_axi_ddr_cntrl_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_0_synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="system_sys_ps7_0_synth_1"/>
+		<Parent Id="system_axi_iic_main_0_synth_1"/>
+		<Parent Id="system_sys_rstgen_0_synth_1"/>
+		<Parent Id="system_sys_200m_rstgen_0_synth_1"/>
+		<Parent Id="system_axi_hdmi_clkgen_0_synth_1"/>
+		<Parent Id="system_axi_hdmi_core_0_synth_1"/>
+		<Parent Id="system_axi_hdmi_dma_0_synth_1"/>
+		<Parent Id="system_sys_audio_clkgen_0_synth_1"/>
+		<Parent Id="system_axi_spdif_tx_core_0_synth_1"/>
+		<Parent Id="system_axi_sysid_0_0_synth_1"/>
+		<Parent Id="system_rom_sys_0_0_synth_1"/>
+		<Parent Id="system_xbar_0_synth_1"/>
+		<Parent Id="system_axi_hp0_interconnect_0_synth_1"/>
+		<Parent Id="system_axi_ad9144_xcvr_0_synth_1"/>
+		<Parent Id="system_tx_axi_0_synth_1"/>
+		<Parent Id="system_tx_0_synth_1"/>
+		<Parent Id="system_dac_tpl_core_0_synth_1"/>
+		<Parent Id="system_axi_ad9144_upack_0_synth_1"/>
+		<Parent Id="system_axi_ad9144_dma_0_synth_1"/>
+		<Parent Id="system_i_data_offload_0_synth_1"/>
+		<Parent Id="system_storage_unit_0_synth_1"/>
+		<Parent Id="system_axi_ad9680_xcvr_0_synth_1"/>
+		<Parent Id="system_rx_axi_0_synth_1"/>
+		<Parent Id="system_rx_0_synth_1"/>
+		<Parent Id="system_adc_tpl_core_0_synth_1"/>
+		<Parent Id="system_axi_ad9680_cpack_0_synth_1"/>
+		<Parent Id="system_axi_ad9680_dma_0_synth_1"/>
+		<Parent Id="system_i_data_offload_1_synth_1"/>
+		<Parent Id="system_storage_unit_1_synth_1"/>
+		<Parent Id="system_util_daq2_xcvr_0_synth_1"/>
+		<Parent Id="system_axi_ad9144_jesd_rstgen_0_synth_1"/>
+		<Parent Id="system_axi_ad9680_jesd_rstgen_0_synth_1"/>
+		<Parent Id="system_axi_hp3_interconnect_0_synth_1"/>
+		<Parent Id="system_axi_hp1_interconnect_0_synth_1"/>
+		<Parent Id="system_axi_hp2_interconnect_0_synth_1"/>
+		<Parent Id="system_axi_rstgen_0_synth_1"/>
+		<Parent Id="system_axi_ddr_cntrl_0_synth_1"/>
+		<Parent Id="system_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

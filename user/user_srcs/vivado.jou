@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Mar 23 10:27:48 2024
+# Process ID: 2147483
+# Current directory: /home/shahamz/FinalProject/user_srcs
+# Command line: vivado
+# Log file: /home/shahamz/FinalProject/user_srcs/vivado.log
+# Journal file: /home/shahamz/FinalProject/user_srcs/vivado.jou
+# Running On: G-P-SHAHAMZ-LW, OS: Linux, CPU Frequency: 2300.000 MHz, CPU Physical cores: 8, Host memory: 33300 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.xpr
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+update_compile_order -fileset sources_1
+reset_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+export_ip_user_files -of_objects  [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -sync -no_script -force -quiet
+generate_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_sig_chk_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_tl_demap_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_sig_gen_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_tl_map_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_phy_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_rx_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_tx_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_zynq_ultra_ps_e_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_axi_quad_spi_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_proc_sys_reset_0_2] }
+catch { config_ip_cache -export [get_ips -all ADDA_xbar_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_3] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_4] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_5] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_6] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_2] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_1_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_8] }
+export_ip_user_files -of_objects [get_files /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+launch_runs ADDA_jesd204c_0_sig_chk_0_synth_1 ADDA_jesd204c_0_tl_demap_0_synth_1 ADDA_jesd204c_0_phy_0_synth_1 ADDA_jesd204c_rx_0_synth_1 -jobs 4
+wait_on_run ADDA_jesd204c_0_sig_chk_0_synth_1
+wait_on_run ADDA_jesd204c_0_tl_demap_0_synth_1
+wait_on_run ADDA_jesd204c_0_phy_0_synth_1
+wait_on_run ADDA_jesd204c_rx_0_synth_1
+export_simulation -of_objects [get_files /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -directory /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files/sim_scripts -ip_user_files_dir /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files -ipstatic_source_dir /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/modelsim} {questa=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/questa} {xcelium=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/xcelium} {vcs=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/vcs} {riviera=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+pwd
+cd ../user_tcl/
+cd  ../FinalProj_ADDA/
+write_project_tcl ./ADDA.tcl

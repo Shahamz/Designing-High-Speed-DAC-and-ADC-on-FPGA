@@ -1,0 +1,170 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.647401",
+   "Default View_TopLeft":"508,290",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port s_axi -pg 1 -lvl 0 -x -30 -y 970 -defaultsOSRD
+preplace port m_axi -pg 1 -lvl 7 -x 2610 -y 1360 -defaultsOSRD
+preplace port s_axi1 -pg 1 -lvl 0 -x -30 -y 1470 -defaultsOSRD
+preplace port up_cm_0 -pg 1 -lvl 7 -x 2610 -y 1380 -defaultsOSRD
+preplace port up_tx_0 -pg 1 -lvl 7 -x 2610 -y 1400 -defaultsOSRD
+preplace port up_tx_2 -pg 1 -lvl 7 -x 2610 -y 1480 -defaultsOSRD
+preplace port up_tx_3 -pg 1 -lvl 7 -x 2610 -y 1520 -defaultsOSRD
+preplace port up_tx_1 -pg 1 -lvl 7 -x 2610 -y 1440 -defaultsOSRD
+preplace port tx_phy0 -pg 1 -lvl 7 -x 2610 -y 1800 -defaultsOSRD
+preplace port tx_phy3 -pg 1 -lvl 7 -x 2610 -y 1860 -defaultsOSRD
+preplace port tx_phy1 -pg 1 -lvl 7 -x 2610 -y 1820 -defaultsOSRD
+preplace port tx_phy2 -pg 1 -lvl 7 -x 2610 -y 1840 -defaultsOSRD
+preplace port s_axi2 -pg 1 -lvl 0 -x -30 -y 770 -defaultsOSRD
+preplace port s_axi3 -pg 1 -lvl 0 -x -30 -y 1820 -defaultsOSRD
+preplace port tx_ilas_config -pg 1 -lvl 7 -x 2610 -y 1880 -defaultsOSRD
+preplace port tx_cfg -pg 1 -lvl 7 -x 2610 -y 1900 -defaultsOSRD
+preplace port tx_ctrl -pg 1 -lvl 7 -x 2610 -y 1920 -defaultsOSRD
+preplace port tx_event -pg 1 -lvl 7 -x 2610 -y 1940 -defaultsOSRD
+preplace port tx_status -pg 1 -lvl 7 -x 2610 -y 1960 -defaultsOSRD
+preplace port s_axi4 -pg 1 -lvl 0 -x -30 -y 230 -defaultsOSRD
+preplace port s_axi5 -pg 1 -lvl 0 -x -30 -y 1030 -defaultsOSRD
+preplace port s_axi6 -pg 1 -lvl 0 -x -30 -y 420 -defaultsOSRD
+preplace port m_axis -pg 1 -lvl 7 -x 2610 -y 550 -defaultsOSRD
+preplace port MAXI_0 -pg 1 -lvl 7 -x 2610 -y 570 -defaultsOSRD
+preplace port s_axi7 -pg 1 -lvl 0 -x -30 -y 460 -defaultsOSRD
+preplace port s_axis -pg 1 -lvl 0 -x -30 -y 750 -defaultsOSRD
+preplace port port-id_up_clk -pg 1 -lvl 0 -x -30 -y 730 -defaultsOSRD
+preplace port port-id_up_rstn -pg 1 -lvl 0 -x -30 -y 530 -defaultsOSRD
+preplace port port-id_tx_ref_clk_0 -pg 1 -lvl 0 -x -30 -y 1530 -defaultsOSRD
+preplace port port-id_rx_ref_clk_0 -pg 1 -lvl 0 -x -30 -y 1550 -defaultsOSRD
+preplace port port-id_rx_data_0_p -pg 1 -lvl 0 -x -30 -y 1570 -defaultsOSRD
+preplace port port-id_rx_data_0_n -pg 1 -lvl 0 -x -30 -y 1590 -defaultsOSRD
+preplace port port-id_tx_data_0_p -pg 1 -lvl 7 -x 2610 -y 1580 -defaultsOSRD
+preplace port port-id_tx_data_0_n -pg 1 -lvl 7 -x 2610 -y 1600 -defaultsOSRD
+preplace port port-id_slowest_sync_clk -pg 1 -lvl 7 -x 2610 -y 1620 -defaultsOSRD
+preplace port port-id_rx_data_1_p -pg 1 -lvl 0 -x -30 -y 1630 -defaultsOSRD
+preplace port port-id_rx_data_1_n -pg 1 -lvl 0 -x -30 -y 1650 -defaultsOSRD
+preplace port port-id_tx_data_1_p -pg 1 -lvl 7 -x 2610 -y 1640 -defaultsOSRD
+preplace port port-id_tx_data_1_n -pg 1 -lvl 7 -x 2610 -y 1660 -defaultsOSRD
+preplace port port-id_rx_data_2_p -pg 1 -lvl 0 -x -30 -y 1670 -defaultsOSRD
+preplace port port-id_rx_data_2_n -pg 1 -lvl 0 -x -30 -y 1690 -defaultsOSRD
+preplace port port-id_tx_data_2_p -pg 1 -lvl 7 -x 2610 -y 1680 -defaultsOSRD
+preplace port port-id_tx_data_2_n -pg 1 -lvl 7 -x 2610 -y 1700 -defaultsOSRD
+preplace port port-id_rx_data_3_p -pg 1 -lvl 0 -x -30 -y 1710 -defaultsOSRD
+preplace port port-id_rx_data_3_n -pg 1 -lvl 0 -x -30 -y 1730 -defaultsOSRD
+preplace port port-id_tx_data_3_p -pg 1 -lvl 7 -x 2610 -y 1720 -defaultsOSRD
+preplace port port-id_tx_data_3_n -pg 1 -lvl 7 -x 2610 -y 1740 -defaultsOSRD
+preplace port port-id_irq -pg 1 -lvl 7 -x 2610 -y 1980 -defaultsOSRD
+preplace port port-id_tx_sysref_0 -pg 1 -lvl 0 -x -30 -y 1960 -defaultsOSRD
+preplace port port-id_irq1 -pg 1 -lvl 7 -x 2610 -y 1060 -defaultsOSRD
+preplace port port-id_rx_sysref_0 -pg 1 -lvl 0 -x -30 -y 1210 -defaultsOSRD
+preplace port port-id_init_req -pg 1 -lvl 0 -x -30 -y 650 -defaultsOSRD
+preplace port port-id_sync_ext -pg 1 -lvl 0 -x -30 -y 710 -defaultsOSRD
+preplace port port-id_m_axi_aclk -pg 1 -lvl 0 -x -30 -y 670 -defaultsOSRD
+preplace port port-id_m_axi_aresetn -pg 1 -lvl 0 -x -30 -y 690 -defaultsOSRD
+preplace port port-id_ddr_calib_done -pg 1 -lvl 0 -x -30 -y 510 -defaultsOSRD
+preplace port port-id_init_req1 -pg 1 -lvl 0 -x -30 -y 490 -defaultsOSRD
+preplace portBus tx_sync_0 -pg 1 -lvl 0 -x -30 -y 1940 -defaultsOSRD
+preplace portBus rx_sync_0 -pg 1 -lvl 7 -x 2610 -y 1780 -defaultsOSRD
+preplace inst axi_ad9680_cpack -pg 1 -lvl 5 -x 1890 -y 700 -defaultsOSRD
+preplace inst axi_ad9144_jesd_rstgen -pg 1 -lvl 1 -x 240 -y 600 -defaultsOSRD
+preplace inst axi_ad9680_jesd_rstgen -pg 1 -lvl 4 -x 1410 -y 520 -defaultsOSRD
+preplace inst axi_ad9144_upack -pg 1 -lvl 3 -x 950 -y 120 -defaultsOSRD
+preplace inst axi_ad9680_tpl -pg 1 -lvl 4 -x 1410 -y 750 -defaultsOSRD
+preplace inst axi_ad9144_jesd -pg 1 -lvl 5 -x 1890 -y 1890 -defaultsOSRD
+preplace inst axi_ad9144_tpl -pg 1 -lvl 4 -x 1410 -y 290 -defaultsOSRD
+preplace inst axi_ad9680_jesd -pg 1 -lvl 4 -x 1410 -y 1120 -defaultsOSRD
+preplace inst axi_ad9680_offload -pg 1 -lvl 6 -x 2400 -y 560 -defaultsOSRD
+preplace inst axi_ad9144_offload -pg 1 -lvl 2 -x 650 -y 570 -defaultsOSRD
+preplace inst xcvr_hier_0 -pg 1 -lvl 6 -x 2400 -y 1550 -defaultsOSRD
+preplace netloc util_daq2_xcvr_rx_out_clk_0 1 3 4 1170 920 1640 550 2220 750 2570
+preplace netloc axi_ad9680_jesd_rstgen_peripheral_reset 1 4 1 1610 520n
+preplace netloc axi_ad9680_tpl_adc_enable_0 1 4 1 1630 680n
+preplace netloc axi_ad9680_tpl_adc_enable_1 1 4 1 1670 700n
+preplace netloc axi_ad9680_tpl_adc_valid_0 1 4 1 N 720
+preplace netloc adc_dovf_1 1 3 3 1210 880 NJ 880 2100
+preplace netloc axi_ad9680_tpl_adc_data_0 1 4 1 N 740
+preplace netloc axi_ad9680_tpl_adc_data_1 1 4 1 1680 760n
+preplace netloc axi_ad9680_cpack_packed_fifo_wr_en 1 5 1 2130 620n
+preplace netloc axi_ad9680_cpack_packed_fifo_wr_data 1 5 1 2160 640n
+preplace netloc axi_ad9680_jesd_phy_en_char_align 1 4 2 NJ 1100 2140
+preplace netloc axi_ad9144_jesd_rstgen_peripheral_reset 1 1 2 420 110 NJ
+preplace netloc axi_ad9144_jesd_rstgen_peripheral_aresetn 1 1 1 440 620n
+preplace netloc axi_ad9680_jesd_rstgen_peripheral_aresetn 1 4 2 1590J 540 2100
+preplace netloc axi_ad9144_tpl_dac_enable_0 1 2 3 810 10 NJ 10 1600
+preplace netloc axi_ad9144_tpl_dac_enable_1 1 2 3 800 240 1100J 160 1610
+preplace netloc axi_ad9144_tpl_dac_valid_0 1 2 3 810 250 1120J 170 1590
+preplace netloc dac_dunf_1 1 3 1 1140 110n
+preplace netloc dac_data_0_1 1 3 1 1130 130n
+preplace netloc dac_data_1_1 1 3 1 1110 150n
+preplace netloc axi_ad9680_jesd_rx_sof 1 3 2 1180 940 1590
+preplace netloc axi_ad9680_jesd_rx_data_tvalid 1 3 2 1200 930 1610
+preplace netloc axi_ad9680_jesd_rx_data_tdata 1 3 2 1190 950 1600
+preplace netloc sys_cpu_clk 1 0 6 NJ 730 460 730 NJ 730 1150 1260 1670 1260 2170
+preplace netloc sys_cpu_resetn 1 0 6 50 710 470 710 NJ 710 1160 1510 1650 1510 2120
+preplace netloc tx_ref_clk_0_1 1 0 6 NJ 1530 NJ 1530 NJ 1530 NJ 1530 NJ 1530 NJ
+preplace netloc rx_ref_clk_0_1 1 0 6 NJ 1550 NJ 1550 NJ 1550 NJ 1550 NJ 1550 NJ
+preplace netloc rx_data_0_p_1 1 0 6 NJ 1570 NJ 1570 NJ 1570 NJ 1570 NJ 1570 NJ
+preplace netloc rx_data_0_n_1 1 0 6 NJ 1590 NJ 1590 NJ 1590 NJ 1590 NJ 1590 NJ
+preplace netloc util_daq2_xcvr_tx_0_p 1 6 1 NJ 1580
+preplace netloc util_daq2_xcvr_tx_0_n 1 6 1 NJ 1600
+preplace netloc util_daq2_xcvr_tx_out_clk_0 1 0 7 60 700 430 290 790 290 1100 1740 1590 1740 2110J 1810 2590
+preplace netloc rx_data_1_p_1 1 0 6 NJ 1630 NJ 1630 NJ 1630 NJ 1630 NJ 1630 NJ
+preplace netloc rx_data_1_n_1 1 0 6 NJ 1650 NJ 1650 NJ 1650 NJ 1650 NJ 1650 NJ
+preplace netloc util_daq2_xcvr_tx_1_p 1 6 1 NJ 1640
+preplace netloc util_daq2_xcvr_tx_1_n 1 6 1 NJ 1660
+preplace netloc rx_data_2_p_1 1 0 6 NJ 1670 NJ 1670 NJ 1670 NJ 1670 NJ 1670 NJ
+preplace netloc rx_data_2_n_1 1 0 6 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ
+preplace netloc util_daq2_xcvr_tx_2_p 1 6 1 NJ 1680
+preplace netloc util_daq2_xcvr_tx_2_n 1 6 1 NJ 1700
+preplace netloc rx_data_3_p_1 1 0 6 NJ 1710 NJ 1710 NJ 1710 1090J 1720 NJ 1720 2190J
+preplace netloc rx_data_3_n_1 1 0 6 NJ 1730 NJ 1730 NJ 1730 NJ 1730 NJ 1730 NJ
+preplace netloc util_daq2_xcvr_tx_3_p 1 6 1 NJ 1720
+preplace netloc util_daq2_xcvr_tx_3_n 1 6 1 NJ 1740
+preplace netloc axi_ad9144_jesd_irq 1 5 2 NJ 1980 NJ
+preplace netloc sync_1 1 0 5 NJ 1940 NJ 1940 NJ 1940 NJ 1940 NJ
+preplace netloc sysref_1 1 0 5 NJ 1960 NJ 1960 NJ 1960 NJ 1960 NJ
+preplace netloc axi_ad9680_jesd_irq 1 4 3 NJ 1060 NJ 1060 NJ
+preplace netloc axi_ad9680_jesd_sync 1 4 3 NJ 1080 NJ 1080 2580J
+preplace netloc sysref_2 1 0 4 NJ 1210 NJ 1210 NJ 1210 NJ
+preplace netloc init_req_2 1 0 6 0J 910 NJ 910 NJ 910 NJ 910 NJ 910 2140J
+preplace netloc GND_1_dout 1 0 6 -10J 740 480 890 NJ 890 NJ 890 NJ 890 2150
+preplace netloc axi_ddr_cntrl_ui_clk 1 0 6 10J 870 NJ 870 NJ 870 NJ 870 1660J 580 2100J
+preplace netloc axi_rstgen_peripheral_aresetn 1 0 6 20J 720 NJ 720 790J 620 NJ 620 1600J 560 2110J
+preplace netloc axi_ddr_cntrl_init_calib_complete 1 0 6 40J 900 NJ 900 NJ 900 NJ 900 1650J 570 2210J
+preplace netloc init_req_1 1 0 2 NJ 490 450J
+preplace netloc util_daq2_xcvr_rx_0 1 3 4 1180 1300 NJ 1300 NJ 1300 2540
+preplace netloc util_daq2_xcvr_rx_1 1 3 4 1200 1270 NJ 1270 NJ 1270 2560
+preplace netloc util_daq2_xcvr_rx_2 1 3 4 1210 1280 NJ 1280 NJ 1280 2550
+preplace netloc util_daq2_xcvr_rx_3 1 3 4 1190 1710 NJ 1710 2150J 1790 2540
+preplace netloc axi_ad9144_offload_m_axis 1 2 1 780 70n
+preplace netloc tx_data_1 1 4 1 1620 250n
+preplace netloc axi_cpu_interconnect_M11_AXI 1 0 6 NJ 970 NJ 970 NJ 970 NJ 970 NJ 970 2150J
+preplace netloc axi_ad9680_xcvr_m_axi 1 6 1 NJ 1360
+preplace netloc axi_cpu_interconnect_M06_AXI 1 0 6 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ 1470 NJ
+preplace netloc axi_ad9144_xcvr_up_cm_0 1 6 1 NJ 1380
+preplace netloc axi_ad9144_xcvr_up_ch_0 1 6 1 NJ 1400
+preplace netloc axi_ad9144_xcvr_up_ch_1 1 6 1 NJ 1480
+preplace netloc axi_ad9144_xcvr_up_ch_2 1 6 1 NJ 1520
+preplace netloc axi_ad9144_xcvr_up_ch_3 1 6 1 NJ 1440
+preplace netloc axi_ad9144_jesd_tx_phy0 1 5 2 2180 1800 NJ
+preplace netloc axi_ad9144_jesd_tx_phy3 1 5 2 2210 1860 NJ
+preplace netloc axi_ad9144_jesd_tx_phy1 1 5 2 2200 1820 NJ
+preplace netloc axi_ad9144_jesd_tx_phy2 1 5 2 2220 1840 NJ
+preplace netloc axi_cpu_interconnect_M12_AXI 1 0 4 NJ 770 NJ 770 810J 680 NJ
+preplace netloc axi_cpu_interconnect_M08_AXI 1 0 5 NJ 1820 NJ 1820 NJ 1820 NJ 1820 NJ
+preplace netloc Conn 1 5 2 NJ 1880 NJ
+preplace netloc Conn1 1 5 2 NJ 1900 NJ
+preplace netloc Conn2 1 5 2 NJ 1920 NJ
+preplace netloc Conn3 1 5 2 NJ 1940 NJ
+preplace netloc Conn4 1 5 2 NJ 1960 NJ
+preplace netloc axi_cpu_interconnect_M07_AXI 1 0 4 NJ 230 NJ 230 NJ 230 NJ
+preplace netloc axi_cpu_interconnect_M13_AXI 1 0 4 NJ 1030 NJ 1030 NJ 1030 NJ
+preplace netloc axi_cpu_interconnect_M15_AXI 1 0 6 NJ 420 NJ 420 NJ 420 NJ 420 NJ 420 NJ
+preplace netloc axi_ad9680_offload_m_axis 1 6 1 NJ 550
+preplace netloc axi_ad9680_offload_MAXI_0 1 6 1 NJ 570
+preplace netloc axi_cpu_interconnect_M10_AXI 1 0 2 NJ 460 450J
+preplace netloc s_axis_1 1 0 2 30J 500 NJ
+levelinfo -pg 1 -30 240 650 950 1410 1890 2400 2610
+pagesize -pg 1 -db -bbox -sgen -190 0 2780 2030
+"
+}
+

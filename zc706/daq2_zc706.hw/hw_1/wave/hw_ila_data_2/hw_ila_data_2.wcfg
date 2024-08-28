@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/shahamz/FinalProject/AnalogDevicesRepo/hdl/projects/daq2/zc706/daq2_zc706.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="1,024"></ZoomEndTime>
+      <Cursor1Time time="0"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="137"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="105" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_0_JESD204_TX_BUS_txcharisk_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_0_JESD204_TX_BUS_txcharisk_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_0_JESD204_TX_BUS_txcharisk_1[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_0_JESD204_TX_BUS_txdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_0_JESD204_TX_BUS_txdata_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_0_JESD204_TX_BUS_txdata_1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_0_JESD204_TX_BUS_txheader_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_0_JESD204_TX_BUS_txheader_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_0_JESD204_TX_BUS_txheader_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_addr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_bufstatus_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_bufstatus_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_enb_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_lpm_dfe_n_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_out_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_pll_locked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbscntreset_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbserr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbsforceerr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbslocked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbssel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rate_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rst_done_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_sys_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_tx_diffctrl_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_tx_postcursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_tx_precursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_user_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_wdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_wr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_1_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_1_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_addr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_bufstatus_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_bufstatus_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_enb_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_lpm_dfe_n_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_out_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_pll_locked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbscntreset_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbserr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbsforceerr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbslocked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbssel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rate_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rst_done_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_sys_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_tx_diffctrl_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_tx_postcursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_tx_precursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_user_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_wdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_wr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_2_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_2_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_addr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_bufstatus_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_bufstatus_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_enb_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_lpm_dfe_n_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_out_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_pll_locked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbscntreset_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbserr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbsforceerr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbslocked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbssel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rate_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rst_done_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_sys_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_tx_diffctrl_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_tx_postcursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_tx_precursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_user_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_wdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_wr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_3_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_3_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_addr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_addr_1[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_bufstatus_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_bufstatus_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_bufstatus_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_bufstatus_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_enb_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_enb_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_lpm_dfe_n_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_lpm_dfe_n_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_out_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_out_clk_sel_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_pll_locked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_pll_locked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbscntreset_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_prbscntreset_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbserr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_prbserr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbsforceerr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_prbsforceerr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbslocked_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_prbslocked_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbssel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_prbssel_1[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rate_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_rate_1[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_rdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rst_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_rst_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rst_done_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_rst_done_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_sys_clk_sel_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_sys_clk_sel_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_tx_diffctrl_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_tx_diffctrl_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_tx_postcursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_tx_postcursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_tx_precursor_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_tx_precursor_1[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_user_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_user_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_wdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_wdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_wr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_4_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_4_IF_XCVR_CH_wr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_addr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_addr_1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_5_IF_XCVR_CM_addr_1[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_enb_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_enb_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_5_IF_XCVR_CM_enb_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_rdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_rdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_5_IF_XCVR_CM_rdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_ready_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_ready_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_5_IF_XCVR_CM_ready_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_wdata_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_wdata_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SLOT_5_IF_XCVR_CM_wdata_1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_wr_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/system_ila_1/inst/SLOT_5_IF_XCVR_CM_wr_1</obj_property>
+      <obj_property name="ObjectShortName">SLOT_5_IF_XCVR_CM_wr_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

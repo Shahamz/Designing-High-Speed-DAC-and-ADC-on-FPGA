@@ -1,0 +1,34 @@
+16:01:24 **** Incremental Build of configuration Debug for project app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../fmcdaq2/src/app/fmcdaq2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -DDISABLE_SECURE_SOCKET -DNO_OS_PROJECT=fmcdaq2 -DNO_OS_VERSION=tags/last_commit-c91c12825 -DXILINX_PLATFORM -Wall -O0 -g3 -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/fmcdaq2/src/app/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/adc/ad9680/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/axi_core/axi_adc_core/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/axi_core/axi_dac_core/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/axi_core/axi_dmac/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/axi_core/clk_axi_clkgen/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/axi_core/jesd204/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/dac/ad9144/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/frequency/ad9523/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/drivers/platform/xilinx/ -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/include -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/app/noos/jesd204/ -c -fmessage-length=0 -MT"fmcdaq2/src/app/fmcdaq2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/export/ZC706/sw/ZC706/standalone_domain/bspinclude/include -MMD -MP -MF"fmcdaq2/src/app/fmcdaq2.d" -MT"fmcdaq2/src/app/fmcdaq2.o" -o "fmcdaq2/src/app/fmcdaq2.o" "../fmcdaq2/src/app/fmcdaq2.c"
+In file included from ../fmcdaq2/src/app/platform.h:36,
+                 from ../fmcdaq2/src/app/fmcdaq2.c:87:
+../fmcdaq2/src/app/platform_config.h:5: warning: "UART_DEVICE_ID" redefined
+    5 | #define UART_DEVICE_ID 0
+      | 
+In file included from ../fmcdaq2/src/app/fmcdaq2.c:48:
+../fmcdaq2/src/app/parameters.h:70: note: this is the location of the previous definition
+   70 | #define UART_DEVICE_ID                          XPAR_XUARTPS_0_DEVICE_ID
+      | 
+Finished building: ../fmcdaq2/src/app/fmcdaq2.c
+ 
+Building target: app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/shahamz/FinalProject/AnalogDevicesRepo/no-OS/projects/fmcdaq2/build/ZC706/export/ZC706/sw/ZC706/standalone_domain/bsplib/lib -o "app.elf"  ./noos/util/no_os_alloc.o ./noos/util/no_os_clk.o ./noos/util/no_os_mutex.o ./noos/util/no_os_util.o  ./noos/jesd204/jesd204-core.o ./noos/jesd204/jesd204-fsm.o  ./noos/drivers/platform/xilinx/xilinx_axi_io.o ./noos/drivers/platform/xilinx/xilinx_delay.o ./noos/drivers/platform/xilinx/xilinx_gpio.o ./noos/drivers/platform/xilinx/xilinx_spi.o  ./noos/drivers/frequency/ad9523/ad9523.o  ./noos/drivers/dac/ad9144/ad9144.o  ./noos/drivers/axi_core/jesd204/axi_adxcvr.o ./noos/drivers/axi_core/jesd204/axi_jesd204_rx.o ./noos/drivers/axi_core/jesd204/axi_jesd204_tx.o ./noos/drivers/axi_core/jesd204/jesd204_clk.o ./noos/drivers/axi_core/jesd204/xilinx_transceiver.o  ./noos/drivers/axi_core/clk_axi_clkgen/clk_axi_clkgen.o  ./noos/drivers/axi_core/axi_dmac/axi_dmac.o  ./noos/drivers/axi_core/axi_dac_core/axi_dac_core.o  ./noos/drivers/axi_core/axi_adc_core/axi_adc_core.o  ./noos/drivers/api/no_os_gpio.o ./noos/drivers/api/no_os_spi.o  ./noos/drivers/adc/ad9680/ad9680.o  ./fmcdaq2/src/app/fmcdaq2.o ./fmcdaq2/src/app/platform.o ./fmcdaq2/src/app/ps7_init.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group
+Finished building target: app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size app.elf  |tee "app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206830	  13678	1064144	1284652	 139a2c	app.elf
+Finished building: app.elf.size
+ 
+
+16:01:24 Build Finished (took 375ms)
+

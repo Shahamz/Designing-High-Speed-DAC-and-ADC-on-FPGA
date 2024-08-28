@@ -1,0 +1,477 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Mar 23 10:27:48 2024
+# Process ID: 2147483
+# Current directory: /home/shahamz/FinalProject/user_srcs
+# Command line: vivado
+# Log file: /home/shahamz/FinalProject/user_srcs/vivado.log
+# Journal file: /home/shahamz/FinalProject/user_srcs/vivado.jou
+# Running On: G-P-SHAHAMZ-LW, OS: Linux, CPU Frequency: 2300.000 MHz, CPU Physical cores: 8, Host memory: 33300 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_7ev_cc_es2:part0:1.1 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/boards/board_files/deprecated/ultrazed_7ev_cc_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_iocc:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/boards/board_files/deprecated/ultrazed_3eg_iocc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_pciecc:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/boards/board_files/deprecated/ultrazed_3eg_pciecc_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_eg_som:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/boards/board_files/deprecated/ultrazed_3eg_som_es1/1.0/board.xml as part xczu3eg-sfva625-1-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part em.avnet.com:ultrazed_ev_som_es2:part0:1.1 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/boards/board_files/deprecated/ultrazed_7ev_som_es2/1.1/board.xml as part xczu7ev-fbvb900-1-i-es2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/shahamz/tools/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/shahamz/tools/Xilinx/Vivado/2022.2/data/ip'.
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+Reading block design file </home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd>...
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - a1bit1
+Adding component instance block -- xilinx.com:module_ref:jesd204c_0_sig_chk:1.0 - jesd204c_0_sig_chk
+Adding component instance block -- xilinx.com:module_ref:jesd204c_0_tl_demap:1.0 - jesd204c_0_tl_demap
+Adding component instance block -- xilinx.com:module_ref:jesd204c_0_sig_gen:1.0 - jesd204c_0_sig_gen
+Adding component instance block -- xilinx.com:module_ref:jesd204c_0_tl_map:1.0 - jesd204c_0_tl_map
+Adding component instance block -- xilinx.com:ip:jesd204_phy:4.0 - jesd204c_0_phy
+INFO: txoutclk frequency set to: 200000000.000 Hz. Line rate = 8.00 Gbps Ratio = linerate / 40.0
+INFO: rxoutclk frequency set to: 200000000.000 Hz. Line rate = 8.00 Gbps Ratio = linerate / 40.0
+Adding component instance block -- xilinx.com:ip:jesd204c:4.2 - jesd204c_rx
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c cellName: /jesd204c_block/jesd204c_rx 
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c gt type GTHE4
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c is tx 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c is 64b 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c num lanes 1
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c line_rate 8.00
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c gt_refclk_freq 200
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c pll_sel 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c is versal 0
+Adding component instance block -- xilinx.com:ip:jesd204c:4.2 - jesd204c_tx
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c cellName: /jesd204c_block/jesd204c_tx 
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c gt type GTHE4
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c is tx 1
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c is 64b 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c num lanes 1
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c line_rate 8.00
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c gt_refclk_freq 200
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c pll_sel 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c is versal 0
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.4 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_1
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_2
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_3
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_4
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_0
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_5
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - util_ds_buf_0
+Successfully read diagram <ADDA> from block design file </home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd>
+update_compile_order -fileset sources_1
+reset_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+export_ip_user_files -of_objects  [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -sync -no_script -force -quiet
+generate_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+INFO: [BD 41-1662] The design 'ADDA.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/data_check_hier_0/rx_clear
+/data_gen_hier_0/tx_clear
+
+Wrote  : </home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ui/bd_280e5b80.ui> 
+Wrote  : </home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ui/bd_3d2a128b.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/jesd204c_block/jesd204c_0_phy/gt0_txdata'(32) to pin: '/jesd204c_block/jesd204c_tx/gt0_txdata'(64) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/jesd204c_block/jesd204c_rx/gt0_rxdata'(64) to pin: '/jesd204c_block/jesd204c_0_phy/gt1_rxdata'(32) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/jesd204c_block/jesd204c_0_phy/rxn_in'(2) to pin '/jesd204c_block/rxn_in'(1) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/jesd204c_block/jesd204c_0_phy/rxp_in'(2) to pin '/jesd204c_block/rxp_in'(1) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/synth/ADDA.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/jesd204c_block/jesd204c_0_phy/gt0_txdata'(32) to pin: '/jesd204c_block/jesd204c_tx/gt0_txdata'(64) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/jesd204c_block/jesd204c_rx/gt0_rxdata'(64) to pin: '/jesd204c_block/jesd204c_0_phy/gt1_rxdata'(32) - Only lower order bits will be connected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/jesd204c_block/jesd204c_0_phy/rxn_in'(2) to pin '/jesd204c_block/rxn_in'(1) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+CRITICAL WARNING: [BD 41-2383] Width mismatch when connecting input pin '/jesd204c_block/jesd204c_0_phy/rxp_in'(2) to pin '/jesd204c_block/rxp_in'(1) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+Verilog Output written to : /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/sim/ADDA.v
+Verilog Output written to : /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/hdl/ADDA_wrapper.v
+Wrote  : </home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ui/bd_280e5b80.ui> 
+Wrote  : </home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ui/bd_3d2a128b.ui> 
+INFO: [BD 41-1029] Generation completed for the IP Integrator block data_check_hier_0/a1bit1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block data_check_hier_0/jesd204c_0_sig_chk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block data_check_hier_0/jesd204c_0_tl_demap .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block data_gen_hier_0/jesd204c_0_sig_gen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block data_gen_hier_0/jesd204c_0_tl_map .
+Y2R: Processing axiLite_interface template of type axiLite4_interface @ address offset phyCoreCtrlInterface
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for axiLite_interface
+Y2R: Processing drpChannelMailbox template of type drpMailboxDiffClk @ address offset 2
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for drpChannelMailbox
+Y2R: Processing phyAxiConfig template of type register @ address offset 0
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for phyAxiConfig
+0x14 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x14 default 1 doc {Timeout for AXI access, enable} signalName timeout_enable}} 0x1C {0 {access rw bitOffset 0 bitWidth 12 addrOffset 0x1C default 128 doc {Timeout for AXI access, value} signalName timeout_value}} 0x20 {0 {access rwInt bitOffset 0 bitWidth 8 addrOffset 0x20 default 0 doc {DBG interface to select} signalName cmm_interface_sel}} 0x24 {0 {access rwInt bitOffset 0 bitWidth 8 addrOffset 0x24 default 0 doc {DBG interface to select} signalName gt_interface_sel}}
+Y2R: Processing phyCoreCtrlInterface_hshk_pls_gen template of type handshakePulse @ address offset phyCoreCtrlInterface
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for phyCoreCtrlInterface_hshk_pls_gen
+Y2R: Processing phyCoreCtrlInterface_sync template of type syncroniser @ address offset phyCoreCtrlInterface
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for phyCoreCtrlInterface_sync
+Y2R: Processing phyCoreCtrlInterface template of type topLevel3 @ address offset phyCoreCtrlInterface
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for phyCoreCtrlInterface
+Y2R: Processing transDbgCtrl_async template of type regWithSel @ address offset 4
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for transDbgCtrl_async
+0x04 {0 {access rw bitOffset 0 bitWidth 2 addrOffset 0x04 default 0 clkdom {} doc {Power down} signalName rx_pd}} 0x08 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x08 default 0 clkdom {} doc {Active high power downs} signalName cpll_pd}} 0x0C {0 {access rwSingle bitOffset 0 bitWidth 2 addrOffset 0x0C default 0 clkdom {} doc {} signalName txpllclksel}} 0x10 {0 {access rwSingle bitOffset 0 bitWidth 2 addrOffset 0x10 default 0 clkdom {} doc {} signalName rxpllclksel}} 0x14 {0 {access rw bitOffset 0 bitWidth 5 addrOffset 0x14 default 0 clkdom {} doc {} signalName txpostcursor}} 0x18 {0 {access rw bitOffset 0 bitWidth 5 addrOffset 0x18 default 0 clkdom {} doc {} signalName txprecursor}} 0x1C {0 {access rw bitOffset 0 bitWidth 3 addrOffset 0x1C default 0 clkdom {} doc {} signalName loopback}} 0x20 {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x20 default 0 doc {TX GT system reset} signalName tx_sys_reset_axi}} 0x24 {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x24 default 0 doc {RX GT system reset} signalName rx_sys_reset_axi}} 0x30 {0 {access rwSingle bitOffset 0 bitWidth 18 addrOffset 0x30 default 4000 clkdom {} doc {period for the cpll cal block} signalName cpll_cal_per}} 0x34 {0 {access rwSingle bitOffset 0 bitWidth 18 addrOffset 0x34 default 40 clkdom {} doc {tollerance for the cpll cal block} signalName cpll_cal_tol}}
+0x04 {0 {access rw bitOffset 0 bitWidth 2 addrOffset 0x04 default 0 clkdom {} doc {Power down} signalName rx_pd}} 0x08 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x08 default 0 clkdom {} doc {Active high power downs} signalName cpll_pd}} 0x0C {0 {access rwSingle bitOffset 0 bitWidth 2 addrOffset 0x0C default 0 clkdom {} doc {} signalName txpllclksel}} 0x10 {0 {access rwSingle bitOffset 0 bitWidth 2 addrOffset 0x10 default 0 clkdom {} doc {} signalName rxpllclksel}} 0x14 {0 {access rw bitOffset 0 bitWidth 5 addrOffset 0x14 default 0 clkdom {} doc {} signalName txpostcursor}} 0x18 {0 {access rw bitOffset 0 bitWidth 5 addrOffset 0x18 default 0 clkdom {} doc {} signalName txprecursor}} 0x1C {0 {access rw bitOffset 0 bitWidth 3 addrOffset 0x1C default 0 clkdom {} doc {} signalName loopback}} 0x20 {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x20 default 0 doc {TX GT system reset} signalName tx_sys_reset_axi}} 0x24 {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x24 default 0 doc {RX GT system reset} signalName rx_sys_reset_axi}} 0x30 {0 {access rwSingle bitOffset 0 bitWidth 18 addrOffset 0x30 default 4000 clkdom {} doc {period for the cpll cal block} signalName cpll_cal_per}} 0x34 {0 {access rwSingle bitOffset 0 bitWidth 18 addrOffset 0x34 default 40 clkdom {} doc {tollerance for the cpll cal block} signalName cpll_cal_tol}}
+Y2R: Processing transDbgCtrl_rx template of type regWithSelReSync @ address offset 6
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for transDbgCtrl_rx
+0x04 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x04 default 0 clkdom {} doc {} signalName rxpolarity}} 0x08 {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x08 default 1 clkdom {} doc {0:DFE, 1:LPM} signalName rxlpmen}} 0x0C {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x0C default 0 clkdom {} doc {Reset for LPM and DFE datapath. Must be toggled after switching between modes to initialize adaptation.} signalName rxdfelpmreset}} 0x14 {2 {access rwSingle bitOffset 2 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 2 0:Free, 1:Hold} signalName rxdfetap2hold} 3 {access rwSingle bitOffset 3 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 3 0:Free, 1:Hold} signalName rxdfetap3hold} 4 {access rwSingle bitOffset 4 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 4 0:Free, 1:Hold} signalName rxdfetap4hold} 5 {access rwSingle bitOffset 5 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 5 0:Free, 1:Hold} signalName rxdfetap5hold} 6 {access rwSingle bitOffset 6 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 6 0:Free, 1:Hold} signalName rxdfetap6hold} 7 {access rwSingle bitOffset 7 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 7 0:Free, 1:Hold} signalName rxdfetap7hold} 8 {access rwSingle bitOffset 8 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 8 0:Free, 1:Hold} signalName rxdfetap8hold} 9 {access rwSingle bitOffset 9 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 9 0:Free, 1:Hold} signalName rxdfetap9hold} 10 {access rwSingle bitOffset 10 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 10 0:Free, 1:Hold} signalName rxdfetap10hold} 11 {access rwSingle bitOffset 11 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 11 0:Free, 1:Hold} signalName rxdfetap11hold} 12 {access rwSingle bitOffset 12 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 12 0:Free, 1:Hold} signalName rxdfetap12hold} 13 {access rwSingle bitOffset 13 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 13 0:Free, 1:Hold} signalName rxdfetap13hold} 14 {access rwSingle bitOffset 14 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 14 0:Free, 1:Hold} signalName rxdfetap14hold} 15 {access rwSingle bitOffset 15 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 15 0:Free, 1:Hold} signalName rxdfetap15hold} 16 {access rwSingle bitOffset 16 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Offset 0:Free, 1:Hold} signalName rxoshold} 17 {access rwSingle bitOffset 17 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE AGC 0:Free, 1:Hold} signalName rxdfeagchold} 18 {access rwSingle bitOffset 18 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Low Fre Loop 0:Free, 1:Hold} signalName rxdfelfhold} 19 {access rwSingle bitOffset 19 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Unrolled Threshold loop 0:Free, 1:Hold} signalName rxdfeuthold} 20 {access rwSingle bitOffset 20 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Voltage peek loop 0:Free, 1:Hold} signalName rxdfevphold}}
+0x04 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x04 default 0 clkdom {} doc {} signalName rxpolarity}} 0x08 {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x08 default 1 clkdom {} doc {0:DFE, 1:LPM} signalName rxlpmen}} 0x0C {0 {access rwSingle bitOffset 0 bitWidth 1 addrOffset 0x0C default 0 clkdom {} doc {Reset for LPM and DFE datapath. Must be toggled after switching between modes to initialize adaptation.} signalName rxdfelpmreset}} 0x14 {2 {access rwSingle bitOffset 2 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 2 0:Free, 1:Hold} signalName rxdfetap2hold} 3 {access rwSingle bitOffset 3 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 3 0:Free, 1:Hold} signalName rxdfetap3hold} 4 {access rwSingle bitOffset 4 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 4 0:Free, 1:Hold} signalName rxdfetap4hold} 5 {access rwSingle bitOffset 5 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 5 0:Free, 1:Hold} signalName rxdfetap5hold} 6 {access rwSingle bitOffset 6 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 6 0:Free, 1:Hold} signalName rxdfetap6hold} 7 {access rwSingle bitOffset 7 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 7 0:Free, 1:Hold} signalName rxdfetap7hold} 8 {access rwSingle bitOffset 8 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 8 0:Free, 1:Hold} signalName rxdfetap8hold} 9 {access rwSingle bitOffset 9 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 9 0:Free, 1:Hold} signalName rxdfetap9hold} 10 {access rwSingle bitOffset 10 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 10 0:Free, 1:Hold} signalName rxdfetap10hold} 11 {access rwSingle bitOffset 11 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 11 0:Free, 1:Hold} signalName rxdfetap11hold} 12 {access rwSingle bitOffset 12 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 12 0:Free, 1:Hold} signalName rxdfetap12hold} 13 {access rwSingle bitOffset 13 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 13 0:Free, 1:Hold} signalName rxdfetap13hold} 14 {access rwSingle bitOffset 14 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 14 0:Free, 1:Hold} signalName rxdfetap14hold} 15 {access rwSingle bitOffset 15 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Tap 15 0:Free, 1:Hold} signalName rxdfetap15hold} 16 {access rwSingle bitOffset 16 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Offset 0:Free, 1:Hold} signalName rxoshold} 17 {access rwSingle bitOffset 17 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE AGC 0:Free, 1:Hold} signalName rxdfeagchold} 18 {access rwSingle bitOffset 18 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Low Fre Loop 0:Free, 1:Hold} signalName rxdfelfhold} 19 {access rwSingle bitOffset 19 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Unrolled Threshold loop 0:Free, 1:Hold} signalName rxdfeuthold} 20 {access rwSingle bitOffset 20 bitWidth 1 addrOffset 0x14 default 0 clkdom {} doc {DFE Voltage peek loop 0:Free, 1:Hold} signalName rxdfevphold}}
+Y2R: Processing transDbgCtrl_tx template of type regWithSelReSync @ address offset 5
+Y2R: Sucessfully called modifyAllBankPropsBankInternals for transDbgCtrl_tx
+0x04 {0 {access rw bitOffset 0 bitWidth 2 addrOffset 0x04 default 0 clkdom {} doc {Power down} signalName tx_pd}} 0x08 {0 {access rw bitOffset 0 bitWidth 5 addrOffset 0x08 default 12 clkdom {} doc {} signalName txdiffctrl}} 0x0C {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x0C default 0 clkdom {} doc {} signalName txinihibit}} 0x10 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x10 default 0 clkdom {} doc {} signalName txpolarity}} 0x20 {0 {access rw bitOffset 0 bitWidth 4 addrOffset 0x20 default 0 clkdom {} doc {} signalName txprbssel}} 0x24 {0 {access rw bitOffset 0 bitWidth 3 addrOffset 0x24 default 2 clkdom {} doc {} signalName txoutclksel}}
+0x04 {0 {access rw bitOffset 0 bitWidth 2 addrOffset 0x04 default 0 clkdom {} doc {Power down} signalName tx_pd}} 0x08 {0 {access rw bitOffset 0 bitWidth 5 addrOffset 0x08 default 12 clkdom {} doc {} signalName txdiffctrl}} 0x0C {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x0C default 0 clkdom {} doc {} signalName txinihibit}} 0x10 {0 {access rw bitOffset 0 bitWidth 1 addrOffset 0x10 default 0 clkdom {} doc {} signalName txpolarity}} 0x20 {0 {access rw bitOffset 0 bitWidth 4 addrOffset 0x20 default 0 clkdom {} doc {} signalName txprbssel}} 0x24 {0 {access rw bitOffset 0 bitWidth 3 addrOffset 0x24 default 2 clkdom {} doc {} signalName txoutclksel}}
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [BD 41-1029] Generation completed for the IP Integrator block jesd204c_block/jesd204c_0_phy .
+Y2R: Processing axiLite_interface template of type axiLite4_interface @ address offset jesd204c_regif
+Y2R: Processing jesd204c_regif template of type topLevel7 @ address offset jesd204c_regif
+Y2R: Processing jesd204c_regif_csr template of type register @ address offset 0
+Y2R: Processing jesd204c_regif_lane template of type regWithSel @ address offset 1
+WARNING: [IP_Flow 19-650] IP license key 'jesd204@2019.10' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'jesd204@2019.10' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'jesd204@2019.10' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'jesd204@2019.10' is enabled with a Design_Linking license.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block jesd204c_block/jesd204c_rx .
+Y2R: Processing axiLite_interface template of type axiLite4_interface @ address offset jesd204c_regif
+Y2R: Processing jesd204c_regif template of type topLevel7 @ address offset jesd204c_regif
+Y2R: Processing jesd204c_regif_csr template of type register @ address offset 0
+Y2R: Processing jesd204c_regif_lane template of type regWithSel @ address offset 1
+INFO: [BD 41-1029] Generation completed for the IP Integrator block jesd204c_block/jesd204c_tx .
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.4-0] ADDA_zynq_ultra_ps_e_0_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_LPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buff_hier_0/util_ds_buf_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buff_hier_0/util_ds_buf_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buff_hier_0/util_ds_buf_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buff_hier_0/util_ds_buf_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buff_hier_0/util_ds_buf_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block buff_hier_0/util_ds_buf_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_ds_buf_0 .
+Exporting to file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/hw_handoff/ADDA.hwh
+Generated Hardware Definition File /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/synth/ADDA.hwdef
+generate_target: Time (s): cpu = 00:00:33 ; elapsed = 00:00:25 . Memory (MB): peak = 9441.777 ; gain = 1103.238 ; free physical = 10779 ; free virtual = 21479
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_sig_chk_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_sig_chk_0
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_tl_demap_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_tl_demap_0
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_sig_gen_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_sig_gen_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry e2c906a1c9185100 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/e/2/e2c906a1c9185100/ADDA_jesd204c_0_sig_gen_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/e/2/e2c906a1c9185100/ADDA_jesd204c_0_sig_gen_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/e/2/e2c906a1c9185100/ADDA_jesd204c_0_sig_gen_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/e/2/e2c906a1c9185100/ADDA_jesd204c_0_sig_gen_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/e/2/e2c906a1c9185100/ADDA_jesd204c_0_sig_gen_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_sig_gen_0/ADDA_jesd204c_0_sig_gen_0_stub.v
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_jesd204c_0_sig_gen_0, cache-ID = e2c906a1c9185100; cache size = 28.554 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_tl_map_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_tl_map_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 5b130ec1ca3eb4f8 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/b/5b130ec1ca3eb4f8/ADDA_jesd204c_0_tl_map_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/b/5b130ec1ca3eb4f8/ADDA_jesd204c_0_tl_map_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/b/5b130ec1ca3eb4f8/ADDA_jesd204c_0_tl_map_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/b/5b130ec1ca3eb4f8/ADDA_jesd204c_0_tl_map_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/b/5b130ec1ca3eb4f8/ADDA_jesd204c_0_tl_map_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_0_tl_map_0/ADDA_jesd204c_0_tl_map_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_jesd204c_0_tl_map_0, cache-ID = 5b130ec1ca3eb4f8; cache size = 28.554 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_phy_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_phy_0
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_rx_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_rx_0
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_tx_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_tx_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry b12edacf558ad14a to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/b/1/b12edacf558ad14a/ADDA_jesd204c_tx_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/b/1/b12edacf558ad14a/ADDA_jesd204c_tx_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/b/1/b12edacf558ad14a/ADDA_jesd204c_tx_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/b/1/b12edacf558ad14a/ADDA_jesd204c_tx_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/b/1/b12edacf558ad14a/ADDA_jesd204c_tx_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_jesd204c_tx_0/ADDA_jesd204c_tx_0.dcp
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_jesd204c_tx_0, cache-ID = b12edacf558ad14a; cache size = 28.554 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_zynq_ultra_ps_e_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_zynq_ultra_ps_e_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1f07dd37c95a5120 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/f/1f07dd37c95a5120/ADDA_zynq_ultra_ps_e_0_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/f/1f07dd37c95a5120/ADDA_zynq_ultra_ps_e_0_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/f/1f07dd37c95a5120/ADDA_zynq_ultra_ps_e_0_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/f/1f07dd37c95a5120/ADDA_zynq_ultra_ps_e_0_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/f/1f07dd37c95a5120/ADDA_zynq_ultra_ps_e_0_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_zynq_ultra_ps_e_0_0/ADDA_zynq_ultra_ps_e_0_0.dcp
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_zynq_ultra_ps_e_0_0, cache-ID = 1f07dd37c95a5120; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_axi_quad_spi_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_axi_quad_spi_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 1d14ff31f4aac0ee to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/d/1d14ff31f4aac0ee/ADDA_axi_quad_spi_0_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/d/1d14ff31f4aac0ee/ADDA_axi_quad_spi_0_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/d/1d14ff31f4aac0ee/ADDA_axi_quad_spi_0_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/d/1d14ff31f4aac0ee/ADDA_axi_quad_spi_0_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/1/d/1d14ff31f4aac0ee/ADDA_axi_quad_spi_0_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_axi_quad_spi_0_0/ADDA_axi_quad_spi_0_0_sim_netlist.v
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_axi_quad_spi_0_0, cache-ID = 1d14ff31f4aac0ee; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_proc_sys_reset_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_proc_sys_reset_0_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c6fc707ed85b98f4 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/6/c6fc707ed85b98f4/ADDA_proc_sys_reset_0_2_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/6/c6fc707ed85b98f4/ADDA_proc_sys_reset_0_2.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/6/c6fc707ed85b98f4/ADDA_proc_sys_reset_0_2_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/6/c6fc707ed85b98f4/ADDA_proc_sys_reset_0_2_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/6/c6fc707ed85b98f4/ADDA_proc_sys_reset_0_2_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_proc_sys_reset_0_2/ADDA_proc_sys_reset_0_2_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_proc_sys_reset_0_2, cache-ID = c6fc707ed85b98f4; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_xbar_1] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_xbar_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 24d980fcf17d5b3b to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/2/4/24d980fcf17d5b3b/ADDA_xbar_1_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/2/4/24d980fcf17d5b3b/ADDA_xbar_1_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/2/4/24d980fcf17d5b3b/ADDA_xbar_1_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/2/4/24d980fcf17d5b3b/ADDA_xbar_1.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/2/4/24d980fcf17d5b3b/ADDA_xbar_1_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_xbar_1/ADDA_xbar_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_xbar_1, cache-ID = 24d980fcf17d5b3b; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_auto_pc_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 56a138767447cb76 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/6/56a138767447cb76/ADDA_auto_pc_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/6/56a138767447cb76/ADDA_auto_pc_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/6/56a138767447cb76/ADDA_auto_pc_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/6/56a138767447cb76/ADDA_auto_pc_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/6/56a138767447cb76/ADDA_auto_pc_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_auto_pc_0/ADDA_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_auto_pc_0, cache-ID = 56a138767447cb76; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_3] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_0_3
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c977e4f74a3d3236 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/9/c977e4f74a3d3236/ADDA_util_ds_buf_0_1_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/9/c977e4f74a3d3236/ADDA_util_ds_buf_0_1_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/9/c977e4f74a3d3236/ADDA_util_ds_buf_0_1_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/9/c977e4f74a3d3236/ADDA_util_ds_buf_0_1.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/c/9/c977e4f74a3d3236/ADDA_util_ds_buf_0_1_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_3/ADDA_util_ds_buf_0_3_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_0_3, cache-ID = c977e4f74a3d3236; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_4] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_0_4
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 042af79c97c0ed48 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_4/ADDA_util_ds_buf_0_4_sim_netlist.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_0_4, cache-ID = 042af79c97c0ed48; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_5] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_0_5
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 042af79c97c0ed48 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_5/ADDA_util_ds_buf_0_5_sim_netlist.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_0_5, cache-ID = 042af79c97c0ed48; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_6] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_0_6
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 4e6d6e9be6d8e0d3 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/4/e/4e6d6e9be6d8e0d3/ADDA_util_ds_buf_0_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/4/e/4e6d6e9be6d8e0d3/ADDA_util_ds_buf_0_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/4/e/4e6d6e9be6d8e0d3/ADDA_util_ds_buf_0_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/4/e/4e6d6e9be6d8e0d3/ADDA_util_ds_buf_0_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/4/e/4e6d6e9be6d8e0d3/ADDA_util_ds_buf_0_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_6/ADDA_util_ds_buf_0_6_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_0_6, cache-ID = 4e6d6e9be6d8e0d3; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_2] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_0_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 042af79c97c0ed48 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/0/4/042af79c97c0ed48/ADDA_util_ds_buf_0_4_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_2/ADDA_util_ds_buf_0_2_sim_netlist.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_0_2, cache-ID = 042af79c97c0ed48; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_1_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_1_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 5032750f9ad272a4 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/0/5032750f9ad272a4/ADDA_util_ds_buf_1_0_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/0/5032750f9ad272a4/ADDA_util_ds_buf_1_0.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/0/5032750f9ad272a4/ADDA_util_ds_buf_1_0_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/0/5032750f9ad272a4/ADDA_util_ds_buf_1_0_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/5/0/5032750f9ad272a4/ADDA_util_ds_buf_1_0_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_1_0/ADDA_util_ds_buf_1_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_1_0, cache-ID = 5032750f9ad272a4; cache size = 28.555 MB.
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_8] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_util_ds_buf_0_8
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry a4165eb1e736b6c3 to dir: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/a/4/a4165eb1e736b6c3/ADDA_util_ds_buf_0_8_sim_netlist.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/a/4/a4165eb1e736b6c3/ADDA_util_ds_buf_0_8_sim_netlist.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/a/4/a4165eb1e736b6c3/ADDA_util_ds_buf_0_8_stub.vhdl to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_stub.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/a/4/a4165eb1e736b6c3/ADDA_util_ds_buf_0_8_stub.v to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/ip/2022.2/a/4/a4165eb1e736b6c3/ADDA_util_ds_buf_0_8.dcp to /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.gen/sources_1/bd/ADDA/ip/ADDA_util_ds_buf_0_8/ADDA_util_ds_buf_0_8.dcp
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP ADDA_util_ds_buf_0_8, cache-ID = a4165eb1e736b6c3; cache size = 28.555 MB.
+export_ip_user_files -of_objects [get_files /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+launch_runs ADDA_jesd204c_0_sig_chk_0_synth_1 ADDA_jesd204c_0_tl_demap_0_synth_1 ADDA_jesd204c_0_phy_0_synth_1 ADDA_jesd204c_rx_0_synth_1 -jobs 4
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_sig_chk_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_tl_demap_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_0_phy_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ADDA_jesd204c_rx_0
+[Sat Mar 23 10:29:34 2024] Launched ADDA_jesd204c_0_sig_chk_0_synth_1, ADDA_jesd204c_0_tl_demap_0_synth_1, ADDA_jesd204c_0_phy_0_synth_1, ADDA_jesd204c_rx_0_synth_1...
+Run output will be captured here:
+ADDA_jesd204c_0_sig_chk_0_synth_1: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.runs/ADDA_jesd204c_0_sig_chk_0_synth_1/runme.log
+ADDA_jesd204c_0_tl_demap_0_synth_1: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.runs/ADDA_jesd204c_0_tl_demap_0_synth_1/runme.log
+ADDA_jesd204c_0_phy_0_synth_1: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.runs/ADDA_jesd204c_0_phy_0_synth_1/runme.log
+ADDA_jesd204c_rx_0_synth_1: /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.runs/ADDA_jesd204c_rx_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 9712.727 ; gain = 253.984 ; free physical = 10838 ; free virtual = 21514
+export_simulation -of_objects [get_files /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -directory /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files/sim_scripts -ip_user_files_dir /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files -ipstatic_source_dir /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/modelsim} {questa=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/questa} {xcelium=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/xcelium} {vcs=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/vcs} {riviera=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+pwd
+/home/shahamz/FinalProject/user_srcs
+cd ../user_tcl/
+cd  ../FinalProj_ADDA/
+write_project_tcl ./ADDA.tcl
+INFO: [BD 5-453] Writing out BD creation steps for ADDA as a TCL proc
+INFO: txoutclk frequency set to: 200000000.000 Hz. Line rate = 8.00 Gbps Ratio = linerate / 40.0
+INFO: rxoutclk frequency set to: 200000000.000 Hz. Line rate = 8.00 Gbps Ratio = linerate / 40.0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c cellName: /jesd204c_block/jesd204c_rx 
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c gt type GTHE4
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c is tx 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c is 64b 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c num lanes 1
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c line_rate 8.00
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c gt_refclk_freq 200
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c pll_sel 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_rx In post_config_ip of jesd204c is versal 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c cellName: /jesd204c_block/jesd204c_tx 
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c gt type GTHE4
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c is tx 1
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c is 64b 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c num lanes 1
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c line_rate 8.00
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c gt_refclk_freq 200
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c pll_sel 0
+INFO: [xilinx.com:ip:jesd204c:4.2-1] /jesd204c_block/jesd204c_tx In post_config_ip of jesd204c is versal 0
+INFO: [BD 5-453] Writing out BD creation steps for SimpleSAim as a TCL proc
+INFO: [Vivado-projutils-8] Tcl script 'ADDA.tcl' generated in output directory '/home/shahamz/FinalProject/FinalProj_ADDA'
+
+INFO: [Vivado-projutils-15] Please note that by default, the file path for the project source files were set wth respect to the 'origin_dir' variable in the
+ generated script. When this script is executed from the output directory, these source files will be referenced with respect to this 'origin_dir' path value.
+ In case this script was later moved to a different directory, the 'origin_dir' value must be set manually in the script with the path
+ relative to the new output directory to make sure that the source files are referenced correctly from the original project. You can also set the
+ 'origin_dir' automatically by setting the 'origin_dir_loc' variable in the tcl shell before sourcing this generated script. The 'origin_dir_loc'
+ variable should be set to the path relative to the new output directory. Alternatively, if you are sourcing the script from the Vivado command line,
+ then set the origin dir using '-tclargs --origin_dir <path>'. For example, 'vivado -mode tcl -source ADDA.tcl -tclargs --origin_dir ".."
+
+WARNING: [Vivado-projutils-10] Found source(s) that were local or imported into the project. If this project is being source controlled, then
+ please ensure that the project source(s) are also part of this source controlled data. The list of these local source(s) can be found in the generated script
+ under the header section.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 23 10:43:16 2024...

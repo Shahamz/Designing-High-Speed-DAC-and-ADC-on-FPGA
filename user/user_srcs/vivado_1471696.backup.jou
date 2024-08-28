@@ -1,0 +1,238 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Mar 20 11:28:39 2024
+# Process ID: 1471696
+# Current directory: /home/shahamz/FinalProject/user_srcs
+# Command line: vivado
+# Log file: /home/shahamz/FinalProject/user_srcs/vivado.log
+# Journal file: /home/shahamz/FinalProject/user_srcs/vivado.jou
+# Running On: G-P-SHAHAMZ-LW, OS: Linux, CPU Frequency: 2300.000 MHz, CPU Physical cores: 8, Host memory: 33300 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.xpr
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+update_compile_order -fileset sources_1
+regenerate_bd_layout
+set_property location {-107 25} [get_bd_ports ADC_CLK_FMC_P]
+undo
+delete_bd_objs [get_bd_nets CLK_125_P_1] [get_bd_nets CLK_125_N_1]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+connect_bd_net [get_bd_ports refclk_pad_tx_n] [get_bd_pins clk_buff_hier_0/refclk_pad_n]
+connect_bd_net [get_bd_ports refclk_pad_tx_p] [get_bd_pins clk_buff_hier_0/refclk_pad_p]
+save_bd_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+close_design
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property IOSTANDARD LVDS [get_ports [list FMC_ADC_SPI_CSB]]
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+current_design rtl_1
+set_property DRIVE 12 [get_ports [list {FMC_SERDIN3_P[31]} {FMC_SERDIN3_P[30]} {FMC_SERDIN3_P[29]} {FMC_SERDIN3_P[28]} {FMC_SERDIN3_P[27]} {FMC_SERDIN3_P[26]} {FMC_SERDIN3_P[25]} {FMC_SERDIN3_P[24]} {FMC_SERDIN3_P[23]} {FMC_SERDIN3_P[22]} {FMC_SERDIN3_P[21]} {FMC_SERDIN3_P[20]} {FMC_SERDIN3_P[19]} {FMC_SERDIN3_P[18]} {FMC_SERDIN3_P[17]} {FMC_SERDIN3_P[16]} {FMC_SERDIN3_P[15]} {FMC_SERDIN3_P[14]} {FMC_SERDIN3_P[13]} {FMC_SERDIN3_P[12]} {FMC_SERDIN3_P[11]} {FMC_SERDIN3_P[10]} {FMC_SERDIN3_P[9]} {FMC_SERDIN3_P[8]} {FMC_SERDIN3_P[7]} {FMC_SERDIN3_P[6]} {FMC_SERDIN3_P[5]} {FMC_SERDIN3_P[4]} {FMC_SERDIN3_P[3]} {FMC_SERDIN3_P[2]} {FMC_SERDIN3_P[1]} {FMC_SERDIN3_P[0]}]]
+set_property package_pin "" [get_ports [list  DAC_CLK_FMC_P]]
+set_property package_pin "" [get_ports [list  DAC_CLK_FMC_P]]
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+delete_bd_objs [get_bd_nets sysref_1] [get_bd_nets tx_reset_1] [get_bd_nets tx_clear_1] [get_bd_nets refclk_pad_tx_n_1] [get_bd_nets rx_clear_1] [get_bd_nets SAXI_aclk_pad_1] [get_bd_nets drpclk_pad_1] [get_bd_nets rxp_in_1] [get_bd_nets refclk_pad_tx_p_1] [get_bd_nets rx_reset_1] [get_bd_nets rxn_in_1]
+delete_bd_objs [get_bd_nets jesd204c_0_phy_txn_out] [get_bd_nets jesd204c_0_phy_txp_out] [get_bd_nets jesd204c_0_irq] [get_bd_nets jesd204c_0_matching_tx_irq]
+copy_bd_objs /  [get_bd_cells {clk_buff_hier_0}]
+connect_bd_net [get_bd_ports ADC_CLK_FMC_N] [get_bd_pins clk_buff_hier_1/core_clk_pad_n]
+startgroup
+connect_bd_net [get_bd_ports ADC_CLK_FMC_P] [get_bd_pins clk_buff_hier_1/core_clk_pad_p]
+endgroup
+connect_bd_net [get_bd_ports CLK_125_P] [get_bd_pins clk_buff_hier_0/refclk_pad_p]
+connect_bd_net [get_bd_ports CLK_125_N] [get_bd_pins clk_buff_hier_0/refclk_pad_n]
+connect_bd_net [get_bd_ports CLK_125_P] [get_bd_pins clk_buff_hier_1/refclk_pad_p]
+connect_bd_net [get_bd_ports CLK_125_N] [get_bd_pins clk_buff_hier_1/refclk_pad_n]
+validate_bd_design
+connect_bd_net [get_bd_ports SAXI_aclk_pad] [get_bd_pins clk_buff_hier_0/SAXI_aclk_pad]
+connect_bd_net [get_bd_ports SAXI_aclk_pad] [get_bd_pins clk_buff_hier_1/SAXI_aclk_pad]
+connect_bd_net [get_bd_ports drpclk_pad] [get_bd_pins clk_buff_hier_1/drpclk_pad]
+connect_bd_net [get_bd_ports drpclk_pad] [get_bd_pins clk_buff_hier_0/drpclk_pad]
+connect_bd_net [get_bd_ports SAXI_aresetn] [get_bd_pins clk_buff_hier_1/SAXI_aresetn]
+validate_bd_design
+save_bd_design
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+refresh_design
+set_property package_pin "" [get_ports [list  spi_rtl_io0_io]]
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+delete_bd_objs [get_bd_intf_nets FMC_SERDOUT1_N_1]
+delete_bd_objs [get_bd_ports FMC_SERDIN3_P]
+create_bd_port -dir O -type data FMC_SERDIN3_P
+delete_bd_objs [get_bd_intf_ports FMC_SERDOUT1_P]
+create_bd_port -dir I FMC_SERDOUT1_P
+delete_bd_objs [get_bd_ports FMC_SERDOUT1_P]
+create_bd_intf_port -mode Slave -vlnv xilinx.com:display_jesd204:jesd204_tx_bus_rtl:1.0 FMC_SERDOUT1_P
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_design impl_1
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+reset_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+export_ip_user_files -of_objects  [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+generate_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_sig_chk_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_tl_demap_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_sig_gen_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_tl_map_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_0_phy_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_rx_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_jesd204c_tx_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_2_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_4_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_3_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_proc_sys_reset_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_IBUFDS_GTE4_i_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_zynq_ultra_ps_e_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_axi_quad_spi_0_0] }
+catch { config_ip_cache -export [get_ips -all ADDA_proc_sys_reset_0_2] }
+catch { config_ip_cache -export [get_ips -all ADDA_xbar_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_0_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_2_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_4_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_util_ds_buf_3_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_proc_sys_reset_0_3] }
+catch { config_ip_cache -export [get_ips -all ADDA_IBUFDS_GTE4_i_0_1] }
+catch { config_ip_cache -export [get_ips -all ADDA_auto_pc_0] }
+export_ip_user_files -of_objects [get_files /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+export_simulation -of_objects [get_files /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -directory /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files/sim_scripts -ip_user_files_dir /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files -ipstatic_source_dir /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/modelsim} {questa=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/questa} {xcelium=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/xcelium} {vcs=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/vcs} {riviera=/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property USER_COMMENTS.comment_1 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_0 {}  [get_bd_cells clk_buff_hier_0]
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+write_bd_tcl -hier_blks [get_bd_cells clk_buff_hier_0] ../user_tcl/clk_buff_hier_0.tcl
+delete_bd_objs [get_bd_nets SAXI_aresetn_2] [get_bd_nets ADC_CLK_FMC_P_1] [get_bd_nets ADC_CLK_FMC_N_1] [get_bd_nets SAXI_aclk_pad_1] [get_bd_nets CLK_125_P_1] [get_bd_nets drpclk_pad_1] [get_bd_nets CLK_125_N_1] [get_bd_nets DAC_CLK_FMC_P_1] [get_bd_nets DAC_CLK_FMC_N_1] [get_bd_nets util_ds_buf_1_IBUF_DS_ODIV2] [get_bd_nets util_ds_buf_3_BUFG_O] [get_bd_cells clk_buff_hier_0] [get_bd_cells clk_buff_hier_1]
+regenerate_bd_layout
+update_compile_order -fileset sources_1
+undo
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:util_ds_buf:2.2 util_ds_buf_0
+endgroup
+set_property location {1 50 463} [get_bd_cells util_ds_buf_0]
+connect_bd_net [get_bd_ports DAC_SYNC_N] [get_bd_pins util_ds_buf_0/IBUF_DS_N]
+connect_bd_net [get_bd_ports DAC_SYNC_P] [get_bd_pins util_ds_buf_0/IBUF_DS_P]
+copy_bd_objs /  [get_bd_cells {util_ds_buf_0}]
+connect_bd_net [get_bd_ports ADC_CLK_FMC_N] [get_bd_pins util_ds_buf_1/IBUF_DS_N]
+connect_bd_net [get_bd_ports ADC_CLK_FMC_P] [get_bd_pins util_ds_buf_1/IBUF_DS_P]
+copy_bd_objs /  [get_bd_cells {util_ds_buf_0}]
+connect_bd_net [get_bd_ports CLKD_SYSREF_ADC_N] [get_bd_pins util_ds_buf_2/IBUF_DS_N]
+connect_bd_net [get_bd_ports CLKD_SYSREF_ADC_P] [get_bd_pins util_ds_buf_2/IBUF_DS_P]
+copy_bd_objs /  [get_bd_cells {util_ds_buf_0}]
+connect_bd_net [get_bd_ports CLKD_SYSREF_DAC_N] [get_bd_pins util_ds_buf_3/IBUF_DS_N]
+connect_bd_net [get_bd_ports CLKD_SYSREF_DAC_P] [get_bd_pins util_ds_buf_3/IBUF_DS_P]
+copy_bd_objs /  [get_bd_cells {util_ds_buf_0}]
+connect_bd_net [get_bd_ports DAC_CLK_FMC_P] [get_bd_pins util_ds_buf_4/IBUF_DS_P]
+connect_bd_net [get_bd_ports DAC_CLK_FMC_N] [get_bd_pins util_ds_buf_4/IBUF_DS_N]
+copy_bd_objs /  [get_bd_cells {util_ds_buf_0}]
+delete_bd_objs [get_bd_cells util_ds_buf_5]
+group_bd_cells buff_hier_0 [get_bd_cells util_ds_buf_0]
+regenerate_bd_layout
+undo
+undo
+group_bd_cells buff_hier_0 [get_bd_cells util_ds_buf_1] [get_bd_cells util_ds_buf_2] [get_bd_cells util_ds_buf_3] [get_bd_cells util_ds_buf_4] [get_bd_cells util_ds_buf_0]
+create_bd_pin -dir O buff_hier_0/ADC_CLK_FMC
+connect_bd_net [get_bd_pins buff_hier_0/ADC_CLK_FMC] [get_bd_pins buff_hier_0/util_ds_buf_1/IBUF_OUT]
+create_bd_pin -dir O buff_hier_0/CLKD_SYSREF_ADC
+connect_bd_net [get_bd_pins buff_hier_0/CLKD_SYSREF_ADC] [get_bd_pins buff_hier_0/util_ds_buf_2/IBUF_OUT]
+create_bd_pin -dir O buff_hier_0/CLKD_SYSREF_DAC
+connect_bd_net [get_bd_pins buff_hier_0/CLKD_SYSREF_DAC] [get_bd_pins buff_hier_0/util_ds_buf_3/IBUF_OUT]
+create_bd_pin -dir O buff_hier_0/DAC_CLK_FMC
+connect_bd_net [get_bd_pins buff_hier_0/DAC_CLK_FMC] [get_bd_pins buff_hier_0/util_ds_buf_4/IBUF_OUT]
+create_bd_pin -dir O buff_hier_0/DAC_SYNC
+connect_bd_net [get_bd_pins buff_hier_0/DAC_SYNC] [get_bd_pins buff_hier_0/util_ds_buf_0/IBUF_OUT]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:util_ds_buf:2.2 util_ds_buf_0
+endgroup
+set_property location {5 1825 52} [get_bd_cells util_ds_buf_0]
+set_property CONFIG.C_BUF_TYPE {OBUFDS} [get_bd_cells util_ds_buf_0]
+connect_bd_net [get_bd_ports ADC_SYNC_P] [get_bd_pins util_ds_buf_0/OBUF_DS_P]
+connect_bd_net [get_bd_ports ADC_SYNC_N] [get_bd_pins util_ds_buf_0/OBUF_DS_N]
+delete_bd_objs [get_bd_nets jesd204c_block/jesd204c_0_rx_sync]
+connect_bd_net [get_bd_pins jesd204c_block/jesd204c_rx/rx_sync] [get_bd_pins util_ds_buf_0/OBUF_IN]
+connect_bd_net [get_bd_pins buff_hier_0/DAC_SYNC] [get_bd_pins jesd204c_block/jesd204c_tx/tx_sync]
+disconnect_bd_net /jesd204c_block/Net [get_bd_pins jesd204c_block/jesd204c_rx/rx_sysref]
+connect_bd_net [get_bd_pins jesd204c_block/sysref] [get_bd_pins buff_hier_0/CLKD_SYSREF_DAC] -boundary_type upper
+connect_bd_net [get_bd_pins jesd204c_block/jesd204c_rx/rx_sysref] [get_bd_pins buff_hier_0/CLKD_SYSREF_DAC]
+undo
+connect_bd_net [get_bd_pins jesd204c_block/jesd204c_rx/rx_sysref] [get_bd_pins buff_hier_0/CLKD_SYSREF_ADC]
+disconnect_bd_net /jesd204c_block/core_clk_1 [get_bd_pins jesd204c_block/jesd204c_rx/rx_core_clk]
+disconnect_bd_net /jesd204c_block/core_clk_1 [get_bd_pins jesd204c_block/jesd204c_0_phy/rx_core_clk]
+connect_bd_net [get_bd_pins buff_hier_0/DAC_CLK_FMC] [get_bd_pins data_check_hier_0/core_clk] -boundary_type upper
+connect_bd_net [get_bd_pins jesd204c_block/jesd204c_rx/rx_core_clk] [get_bd_pins buff_hier_0/CLKD_SYSREF_ADC]
+undo
+connect_bd_net [get_bd_pins jesd204c_block/jesd204c_rx/rx_core_clk] [get_bd_pins buff_hier_0/ADC_CLK_FMC]
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+connect_bd_net [get_bd_ports drpclk_pad] [get_bd_pins jesd204c_block/drpclk]
+connect_bd_net [get_bd_ports refclk_pad_tx_p] [get_bd_pins jesd204c_block/refclk]
+connect_bd_net [get_bd_pins jesd204c_block/rx_core_clk] [get_bd_pins jesd204c_block/jesd204c_0_phy/rx_core_clk]
+save_bd_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+disconnect_bd_net /core_clk_1 [get_bd_pins data_check_hier_0/core_clk]
+connect_bd_net [get_bd_pins data_check_hier_0/core_clk] [get_bd_pins buff_hier_0/ADC_CLK_FMC] -boundary_type upper
+save_bd_design
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets refclk_pad_tx_p_1]
+copy_bd_objs buff_hier_0  [get_bd_cells {buff_hier_0/util_ds_buf_1}]
+create_bd_pin -dir O buff_hier_0/CLK_125
+connect_bd_net [get_bd_pins buff_hier_0/CLK_125] [get_bd_pins buff_hier_0/util_ds_buf_5/IBUF_OUT]
+connect_bd_net [get_bd_ports CLK_125_P] [get_bd_pins buff_hier_0/util_ds_buf_5/IBUF_DS_P]
+connect_bd_net [get_bd_ports CLK_125_N] [get_bd_pins buff_hier_0/util_ds_buf_5/IBUF_DS_N]
+regenerate_bd_layout
+startgroup
+set_property -dict [list \
+  CONFIG.PSU__CRL_APB__PL1_REF_CTRL__FREQMHZ {125} \
+  CONFIG.PSU__FPGA_PL1_ENABLE {1} \
+  CONFIG.PSU__FPGA_PL2_ENABLE {1} \
+] [get_bd_cells zynq_ultra_ps_e_0]
+endgroup
+connect_bd_net [get_bd_pins buff_hier_0/CLK_125] [get_bd_pins jesd204c_block/refclk] -boundary_type upper
+save_bd_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+open_bd_design {/home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd}
+report_ip_status -name ip_status 
+reset_target all [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]
+export_ip_user_files -of_objects  [get_files  /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd] -sync -no_script -force -quiet
+delete_ip_run [get_files -of_objects [get_fileset sources_1] /home/shahamz/FinalProject/FinalProj_ADDA/FinalProj_SimpleSim.srcs/sources_1/bd/ADDA/ADDA.bd]

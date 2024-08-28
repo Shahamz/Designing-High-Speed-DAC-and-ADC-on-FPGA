@@ -1,0 +1,48 @@
+Software documentation:
+*************************
+This document intends to clarify the most important parts of the project. However, the entire software side is composed of many different files and functions (drivers, sources, initialization code, FSBL, etc.) which makes it imposible to cover everything. 
+This code builds on the Analog Devices code, especially, for the drivers configuring the IPs and handling the SPI reads and writes.
+
+The code is written in the C programming language, with Vitis IDE.
+After compilng, the generated .elf can be loaded on the processor to begin executing.
+
+fmcdaq2.c:
+----------
+This file is the top level code in the program, containing the main() function.
+
+*main(): Declares and allocates several structs and variables for the configuration of the IPs. It then sets up the configuration for 		the protocol (chosen by the user) by calling fmcdaq2_setup(). It initializes the different channels (jesd204_topology_init()) 	   and the dma (axi_dmac_init()). 
+	It then prompts the user to choose a frequency for the NCO (to be transmited to the DAC).
+	Afterwards, it calls axi_dac_data_setup() to bring up to link.
+	Lastly, it waits for the dma tracnsaction to finish and prints the first 1024 samples recorded from the ADC to the console.
+	
+*fmcdaq2_reconfig(): This function sets up a working configuration of the jesd204b protocol, by modifying the default configuration 		that is set prior. We have made eight different configurations, each one serving a different purpose with different sampling
+	rates for the two converters. One thing to note is that for the desired speeds we were after, we needed to use the qpll for
+	both the ADC and DAC clocks, but only one is available. Therefore reaching the maximum sampling rate in both channels is not 
+	possible (even though both can work in paraller and do so). Therefore, there are two configurations which achieve the 
+	requirements, which are 8 (ADC 600 MSPS, DAC 2800 MSPS) and 1 (ADC 1000 MSPS, DAC 1000 MSPS).
+	For each configuration we configure the different clocks and frequency deviders as explained in the project report.
+	p_ad9144_param->pll_dac_frequency_khz - The frequency of the dac. 
+	p_ad9680_param->sampling_frequency_hz - The frequency of the adc.
+	p_ad9680_param->lane_rate_kbps, ad9144_xcvr_param->lane_rate_khz - Lane rates for the ADC and DAC.
+	
+	
+xilinix_tranceiver.c:
+---------------------
+This driver is responsible for communicating with the jesd204b phy IP in the design. 
+
+*xilinx_xcvr_calc_qpll_config(): Calculates QPLL configuration. Given a requested configuration for the jesd set up (desired lane 
+	rate, sampling rate of the converter, etc.) finds the appropriate qpll configuration to achieve the needed clocks. If 
+	it cannot be achieved, it will raise an error.
+	Certain limitations in place, such as type of serdes on the fpga (in our case it is gtx2), valid VCO range (which is 
+	determined in xilinx_xcvr_get_qpll_vco_ranges()).
+	The output frequency of the qpll is fPLLClkout = (refclk_khz * n) / (m * 2) where n is one of several possible 
+	configurations for the serdes (gtx2) and m = {1,2,3,4}.
+	The VCO frequency must also be set within one of two ranges: high band = 9.8G to 12.5GHz, low band = 5.93G to 8.0GHz.
+	
+	xilinx_xcvr_calc_cpll_config() is a function that does the same for the cpll.
+	
+*xilinx_xcvr_get_qpll_vco_ranges(): Returns the valid bands of frequencies for the VCO according to the selected pll.
+	vco0_min - Frequency lower limit for vco0 (kHz).
+ 	vco0_max - Frequency upper limit for vco0 (kHz).
+	vco1_min - Frequency lower limit for vco1 (kHz).
+ 	vco1_max - Frequency upper limit for vco1 (kHz).
